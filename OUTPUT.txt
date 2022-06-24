@@ -1,0 +1,2342 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:split-tweets >----------------------
+[INFO] Building split-tweets 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ split-tweets ---
+[INFO] Deleting /Users/valbaca/Code/java/split-tweets/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ split-tweets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ split-tweets ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/valbaca/Code/java/split-tweets/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:3.0.0:java (default-cli) @ split-tweets ---
+Sourcing tweet text from file: short.txt
+>Hello world!
+12 chars
+=====
+Sourcing tweet text from file: two_tweets.txt
+>(1/2)Oh NO OH My
+16 chars
+>(2/2)GoshGuysHelpMySpacebarIsBrokenPleaseRetweetThisIfYouAlsoCantHitSpace.PeopleThinkImMumblingAllOfTheTimeAndNoOneCanReadWhatImTypigTyping
+139 chars
+=====
+Sourcing tweet text from file: alice_short.txt
+>(1/20)Alice was beginning to get very tired of sitting by her sisteron the bank, and of having nothing to do:  once or twice she hadpeeped
+138 chars
+>(2/20)into the book her sister was reading, but it had nopictures or conversations in it, `and what is the use of a book,'thought Alice
+135 chars
+>(3/20)`without pictures or conversation?'  So she was considering in her own mind (as well as she could,for the hot day made her feel very
+138 chars
+>(4/20)sleepy and stupid), whetherthe pleasure of making a daisy-chain would be worth the troubleof getting up and picking the daisies, when
+139 chars
+>(5/20)suddenly a WhiteRabbit with pink eyes ran close by her.  There was nothing so VERY remarkable in that; nor did Alicethink it so VERY
+138 chars
+>(6/20)much out of the way to hear the Rabbit say toitself, `Oh dear!  Oh dear!  I shall be late!'  (when she thoughtit over afterwards, it
+138 chars
+>(7/20)occurred to her that she ought to havewondered at this, but at the time it all seemed quite natural);but when the Rabbit actually TOOK
+140 chars
+>(8/20)A WATCH OUT OF ITS WAISTCOAT-POCKET, and looked at it, and then hurried on, Alice started toher feet, for it flashed across her mind
+138 chars
+>(9/20)that she had neverbefore seen a rabbit with either a waistcoat-pocket, or a watch totake out of it, and burning with curiosity, she
+137 chars
+>(10/20)ran across thefield after it, and fortunately was just in time to see it popdown a large rabbit-hole under the hedge.  In another
+136 chars
+>(11/20)moment down went Alice after it, never onceconsidering how in the world she was to get out again.  The rabbit-hole went straight on
+138 chars
+>(12/20)like a tunnel for some way,and then dipped suddenly down, so suddenly that Alice had not amoment to think about stopping herself
+135 chars
+>(13/20)before she found herselffalling down a very deep well.  Either the well was very deep, or she fell very slowly, for shehad plenty of
+139 chars
+>(14/20)time as she went down to look about her and towonder what was going to happen next.  First, she tried to lookdown and make out what
+138 chars
+>(15/20)she was coming to, but it was too dark tosee anything; then she looked at the sides of the well, andnoticed that they were filled
+136 chars
+>(16/20)with cupboards and book-shelves;here and there she saw maps and pictures hung upon pegs.  Shetook down a jar from one of the shelves
+139 chars
+>(17/20)as she passed; it waslabelled `ORANGE MARMALADE', but to her great disappointment itwas empty:  she did not like to drop the jar for
+139 chars
+>(18/20)fear of killingsomebody, so managed to put it into one of the cupboards as shefell past it.  `Well!' thought Alice to herself, `after
+140 chars
+>(19/20)such a fall as this, Ishall think nothing of tumbling down stairs!  How brave they'llall think me at home!  Why, I wouldn't say
+134 chars
+>(20/20)anything about it,even if I fell off the top of the house!' (Which was very likelytrue.)
+95 chars
+=====
+Sourcing tweet text from file: alice.txt
+>(1/1132)Alice's Adventures in Wonderland               ALICE'S ADVENTURES IN WONDERLAND                          Lewis Carroll              
+140 chars
+>(2/1132)THE MILLENNIUM FULCRUM EDITION 3.0                            CHAPTER I                      Down the Rabbit-Hole  Alice was
+132 chars
+>(3/1132)beginning to get very tired of sitting by her sisteron the bank, and of having nothing to do:  once or twice she hadpeeped into the
+139 chars
+>(4/1132)book her sister was reading, but it had nopictures or conversations in it, `and what is the use of a book,'thought Alice `without
+137 chars
+>(5/1132)pictures or conversation?'  So she was considering in her own mind (as well as she could,for the hot day made her feel very sleepy
+138 chars
+>(6/1132)and stupid), whetherthe pleasure of making a daisy-chain would be worth the troubleof getting up and picking the daisies, when
+134 chars
+>(7/1132)suddenly a WhiteRabbit with pink eyes ran close by her.  There was nothing so VERY remarkable in that; nor did Alicethink it so VERY
+140 chars
+>(8/1132)much out of the way to hear the Rabbit say toitself, `Oh dear!  Oh dear!  I shall be late!'  (when she thoughtit over afterwards, it
+140 chars
+>(9/1132)occurred to her that she ought to havewondered at this, but at the time it all seemed quite natural);but when the Rabbit actually
+137 chars
+>(10/1132)TOOK A WATCH OUT OF ITS WAISTCOAT-POCKET, and looked at it, and then hurried on, Alice started toher feet, for it flashed across
+137 chars
+>(11/1132)her mind that she had neverbefore seen a rabbit with either a waistcoat-pocket, or a watch totake out of it, and burning with
+134 chars
+>(12/1132)curiosity, she ran across thefield after it, and fortunately was just in time to see it popdown a large rabbit-hole under the
+134 chars
+>(13/1132)hedge.  In another moment down went Alice after it, never onceconsidering how in the world she was to get out again.  The
+130 chars
+>(14/1132)rabbit-hole went straight on like a tunnel for some way,and then dipped suddenly down, so suddenly that Alice had not amoment to
+137 chars
+>(15/1132)think about stopping herself before she found herselffalling down a very deep well.  Either the well was very deep, or she fell
+136 chars
+>(16/1132)very slowly, for shehad plenty of time as she went down to look about her and towonder what was going to happen next.  First, she
+138 chars
+>(17/1132)tried to lookdown and make out what she was coming to, but it was too dark tosee anything; then she looked at the sides of the
+135 chars
+>(18/1132)well, andnoticed that they were filled with cupboards and book-shelves;here and there she saw maps and pictures hung upon pegs. 
+137 chars
+>(19/1132)Shetook down a jar from one of the shelves as she passed; it waslabelled `ORANGE MARMALADE', but to her great disappointment itwas
+139 chars
+>(20/1132)empty:  she did not like to drop the jar for fear of killingsomebody, so managed to put it into one of the cupboards as shefell
+136 chars
+>(21/1132)past it.  `Well!' thought Alice to herself, `after such a fall as this, Ishall think nothing of tumbling down stairs!  How brave
+137 chars
+>(22/1132)they'llall think me at home!  Why, I wouldn't say anything about it,even if I fell off the top of the house!' (Which was very
+134 chars
+>(23/1132)likelytrue.)  Down, down, down.  Would the fall NEVER come to an end!  `Iwonder how many miles I've fallen by this time?' she said
+139 chars
+>(24/1132)aloud.`I must be getting somewhere near the centre of the earth.  Letme see:  that would be four thousand miles down, I think--'
+137 chars
+>(25/1132)(for,you see, Alice had learnt several things of this sort in herlessons in the schoolroom, and though this was not a VERY
+131 chars
+>(26/1132)goodopportunity for showing off her knowledge, as there was no one tolisten to her, still it was good practice to say it over)
+135 chars
+>(27/1132)`--yes,that's about the right distance--but then I wonder what Latitudeor Longitude I've got to?'  (Alice had no idea what Latitude
+140 chars
+>(28/1132)was,or Longitude either, but thought they were nice grand words tosay.)  Presently she began again.  `I wonder if I shall fall
+135 chars
+>(29/1132)rightTHROUGH the earth!  How funny it'll seem to come out among thepeople that walk with their heads downward!  The Antipathies,
+137 chars
+>(30/1132)Ithink--' (she was rather glad there WAS no one listening, thistime, as it didn't sound at all the right word) `--but I shallhave
+138 chars
+>(31/1132)to ask them what the name of the country is, you know.Please, Ma'am, is this New Zealand or Australia?' (and she triedto curtsey as
+140 chars
+>(32/1132)she spoke--fancy CURTSEYING as you're fallingthrough the air!  Do you think you could manage it?)  `And whatan ignorant little girl
+140 chars
+>(33/1132)she'll think me for asking!  No, it'llnever do to ask:  perhaps I shall see it written up somewhere.'  Down, down, down.  There was
+140 chars
+>(34/1132)nothing else to do, so Alice soonbegan talking again.  `Dinah'll miss me very much to-night, Ishould think!'  (Dinah was the cat.) 
+140 chars
+>(35/1132)`I hope they'll rememberher saucer of milk at tea-time.  Dinah my dear!  I wish you weredown here with me!  There are no mice in
+137 chars
+>(36/1132)the air, I'm afraid, butyou might catch a bat, and that's very like a mouse, you know.But do cats eat bats, I wonder?'  And here
+137 chars
+>(37/1132)Alice began to getrather sleepy, and went on saying to herself, in a dreamy sort ofway, `Do cats eat bats?  Do cats eat bats?' and
+139 chars
+>(38/1132)sometimes, `Dobats eat cats?' for, you see, as she couldn't answer eitherquestion, it didn't much matter which way she put it.  She
+140 chars
+>(39/1132)feltthat she was dozing off, and had just begun to dream that shewas walking hand in hand with Dinah, and saying to her
+128 chars
+>(40/1132)veryearnestly, `Now, Dinah, tell me the truth:  did you ever eat abat?' when suddenly, thump! thump! down she came upon a heap
+135 chars
+>(41/1132)ofsticks and dry leaves, and the fall was over.  Alice was not a bit hurt, and she jumped up on to her feet in amoment:  she looked
+140 chars
+>(42/1132)up, but it was all dark overhead; before herwas another long passage, and the White Rabbit was still insight, hurrying down it. 
+137 chars
+>(43/1132)There was not a moment to be lost:away went Alice like the wind, and was just in time to hear itsay, as it turned a corner, `Oh my
+139 chars
+>(44/1132)ears and whiskers, how lateit's getting!'  She was close behind it when she turned thecorner, but the Rabbit was no longer to be
+137 chars
+>(45/1132)seen:  she foundherself in a long, low hall, which was lit up by a row of lampshanging from the roof.  There were doors all round
+138 chars
+>(46/1132)the hall, but they were all locked;and when Alice had been all the way down one side and up theother, trying every door, she walked
+140 chars
+>(47/1132)sadly down the middle,wondering how she was ever to get out again.  Suddenly she came upon a little three-legged table, all made
+137 chars
+>(48/1132)ofsolid glass; there was nothing on it except a tiny golden key,and Alice's first thought was that it might belong to one of
+133 chars
+>(49/1132)thedoors of the hall; but, alas! either the locks were too large, orthe key was too small, but at any rate it would not open any
+137 chars
+>(50/1132)ofthem.  However, on the second time round, she came upon a lowcurtain she had not noticed before, and behind it was a littledoor
+138 chars
+>(51/1132)about fifteen inches high:  she tried the little golden keyin the lock, and to her great delight it fitted!  Alice opened the door
+139 chars
+>(52/1132)and found that it led into a smallpassage, not much larger than a rat-hole:  she knelt down andlooked along the passage into the
+137 chars
+>(53/1132)loveliest garden you ever saw.How she longed to get out of that dark hall, and wander aboutamong those beds of bright flowers and
+138 chars
+>(54/1132)those cool fountains, butshe could not even get her head through the doorway; `and even ifmy head would go through,' thought poor
+138 chars
+>(55/1132)Alice, `it would be ofvery little use without my shoulders.  Oh, how I wishI could shut up like a telescope!  I think I could, if I
+140 chars
+>(56/1132)onlyknow how to begin.'  For, you see, so many out-of-the-way thingshad happened lately, that Alice had begun to think that very
+137 chars
+>(57/1132)fewthings indeed were really impossible.  There seemed to be no use in waiting by the little door, so shewent back to the table,
+137 chars
+>(58/1132)half hoping she might find another key onit, or at any rate a book of rules for shutting people up liketelescopes:  this time she
+138 chars
+>(59/1132)found a little bottle on it, (`whichcertainly was not here before,' said Alice,) and round the neckof the bottle was a paper label,
+140 chars
+>(60/1132)with the words `DRINK ME'beautifully printed on it in large letters.  It was all very well to say `Drink me,' but the wise
+131 chars
+>(61/1132)littleAlice was not going to do THAT in a hurry.  `No, I'll lookfirst,' she said, `and see whether it's marked "poison" or not';for
+140 chars
+>(62/1132)she had read several nice little histories about children whohad got burnt, and eaten up by wild beasts and other unpleasantthings,
+140 chars
+>(63/1132)all because they WOULD not remember the simple rulestheir friends had taught them:  such as, that a red-hot pokerwill burn you if
+138 chars
+>(64/1132)you hold it too long; and that if you cut yourfinger VERY deeply with a knife, it usually bleeds; and she hadnever forgotten that,
+139 chars
+>(65/1132)if you drink much from a bottle marked`poison,' it is almost certain to disagree with you, sooner orlater.  However, this bottle
+137 chars
+>(66/1132)was NOT marked `poison,' so Alice venturedto taste it, and finding it very nice, (it had, in fact, a sortof mixed flavour of
+133 chars
+>(67/1132)cherry-tart, custard, pine-apple, roastturkey, toffee, and hot buttered toast,) she very soon finishedit off.     *       *       *
+140 chars
+>(68/1132)*       *       *       *         *       *       *       *       *       *     *       *       *       *       *       *       * 
+139 chars
+>(69/1132)`What a curious feeling!' said Alice; `I must be shutting uplike a telescope.'  And so it was indeed:  she was now only ten inches
+139 chars
+>(70/1132)high, andher face brightened up at the thought that she was now the rightsize for going through the little door into that lovely
+137 chars
+>(71/1132)garden.First, however, she waited for a few minutes to see if she wasgoing to shrink any further:  she felt a little nervous
+133 chars
+>(72/1132)aboutthis; `for it might end, you know,' said Alice to herself, `in mygoing out altogether, like a candle.  I wonder what I should
+139 chars
+>(73/1132)belike then?'  And she tried to fancy what the flame of a candle islike after the candle is blown out, for she could not
+129 chars
+>(74/1132)rememberever having seen such a thing.  After a while, finding that nothing more happened, she decidedon going into the garden at
+138 chars
+>(75/1132)once; but, alas for poor Alice!when she got to the door, she found she had forgotten thelittle golden key, and when she went back
+138 chars
+>(76/1132)to the table for it,she found she could not possibly reach it:  she could see itquite plainly through the glass, and she tried her
+139 chars
+>(77/1132)best to climbup one of the legs of the table, but it was too slippery;and when she had tired herself out with trying,the poor
+134 chars
+>(78/1132)little thing sat down and cried.  `Come, there's no use in crying like that!' said Alice toherself, rather sharply; `I advise you
+138 chars
+>(79/1132)to leave off this minute!'She generally gave herself very good advice, (though she veryseldom followed it), and sometimes she
+134 chars
+>(80/1132)scolded herself soseverely as to bring tears into her eyes; and once she rememberedtrying to box her own ears for having cheated
+137 chars
+>(81/1132)herself in a gameof croquet she was playing against herself, for this curiouschild was very fond of pretending to be two people. 
+138 chars
+>(82/1132)`But it's nouse now,' thought poor Alice, `to pretend to be two people!  Why,there's hardly enough of me left to make ONE
+130 chars
+>(83/1132)respectableperson!'  Soon her eye fell on a little glass box that was lying underthe table:  she opened it, and found in it a very
+139 chars
+>(84/1132)small cake, onwhich the words `EAT ME' were beautifully marked in currants.`Well, I'll eat it,' said Alice, `and if it makes me
+136 chars
+>(85/1132)grow larger,I can reach the key; and if it makes me grow smaller, I can creepunder the door; so either way I'll get into the
+133 chars
+>(86/1132)garden, and Idon't care which happens!'  She ate a little bit, and said anxiously to herself, `Whichway?  Which way?', holding her
+139 chars
+>(87/1132)hand on the top of her head tofeel which way it was growing, and she was quite surprised tofind that she remained the same size: 
+138 chars
+>(88/1132)to be sure, this generallyhappens when one eats cake, but Alice had got so much into theway of expecting nothing but out-of-the-way
+140 chars
+>(89/1132)things to happen,that it seemed quite dull and stupid for life to go on in thecommon way.  So she set to work, and very soon
+133 chars
+>(90/1132)finished off the cake.     *       *       *       *       *       *       *         *       *       *       *       *       *    
+139 chars
+>(91/1132)*       *       *       *       *       *       *                           CHAPTER II                        The Pool of Tears 
+137 chars
+>(92/1132)`Curiouser and curiouser!' cried Alice (she was so muchsurprised, that for the moment she quite forgot how to speak goodEnglish);
+138 chars
+>(93/1132)`now I'm opening out like the largest telescope thatever was!  Good-bye, feet!' (for when she looked down at herfeet, they seemed
+138 chars
+>(94/1132)to be almost out of sight, they were getting sofar off).  `Oh, my poor little feet, I wonder who will put onyour shoes and
+131 chars
+>(95/1132)stockings for you now, dears?  I'm sure _I_ shan'tbe able!  I shall be a great deal too far off to trouble myselfabout you:  you
+137 chars
+>(96/1132)must manage the best way you can; --but I must bekind to them,' thought Alice, `or perhaps they won't walk theway I want to go! 
+137 chars
+>(97/1132)Let me see:  I'll give them a new pair ofboots every Christmas.'  And she went on planning to herself how she would manage it.`They
+140 chars
+>(98/1132)must go by the carrier,' she thought; `and how funny it'llseem, sending presents to one's own feet!  And how odd thedirections will
+140 chars
+>(99/1132)look!            ALICE'S RIGHT FOOT, ESQ.                HEARTHRUG,                    NEAR THE FENDER,                       
+135 chars
+>(100/1132)(WITH ALICE'S LOVE).Oh dear, what nonsense I'm talking!'  Just then her head struck against the roof of the hall:  infact she was
+139 chars
+>(101/1132)now more than nine feet high, and she at once tookup the little golden key and hurried off to the garden door.  Poor Alice!  It
+137 chars
+>(102/1132)was as much as she could do, lying down on oneside, to look through into the garden with one eye; but to getthrough was more
+134 chars
+>(103/1132)hopeless than ever:  she sat down and began tocry again.  `You ought to be ashamed of yourself,' said Alice, `a greatgirl like
+136 chars
+>(104/1132)you,' (she might well say this), `to go on crying inthis way!  Stop this moment, I tell you!'  But she went on allthe same,
+133 chars
+>(105/1132)shedding gallons of tears, until there was a large poolall round her, about four inches deep and reaching half down thehall. 
+135 chars
+>(106/1132)After a time she heard a little pattering of feet in thedistance, and she hastily dried her eyes to see what was coming.It was the
+140 chars
+>(107/1132)White Rabbit returning, splendidly dressed, with apair of white kid gloves in one hand and a large fan in theother:  he came
+134 chars
+>(108/1132)trotting along in a great hurry, muttering tohimself as he came, `Oh! the Duchess, the Duchess! Oh! won't shebe savage if I've
+136 chars
+>(109/1132)kept her waiting!'  Alice felt so desperatethat she was ready to ask help of any one; so, when the Rabbitcame near her, she began,
+140 chars
+>(110/1132)in a low, timid voice, `If you please,sir--'  The Rabbit started violently, dropped the white kidgloves and the fan, and skurried
+139 chars
+>(111/1132)away into the darkness as hardas he could go.  Alice took up the fan and gloves, and, as the hall was veryhot, she kept fanning
+137 chars
+>(112/1132)herself all the time she went on talking:`Dear, dear!  How queer everything is to-day!  And yesterdaythings went on just as usual.
+140 chars
+>(113/1132)I wonder if I've been changed inthe night?  Let me think:  was I the same when I got up thismorning?  I almost think I can
+132 chars
+>(114/1132)remember feeling a littledifferent.  But if I'm not the same, the next question is, Who inthe world am I?  Ah, THAT'S the great
+137 chars
+>(115/1132)puzzle!'  And she beganthinking over all the children she knew that were of the same ageas herself, to see if she could have been
+139 chars
+>(116/1132)changed for any ofthem.  `I'm sure I'm not Ada,' she said, `for her hair goes in suchlong ringlets, and mine doesn't go in
+132 chars
+>(117/1132)ringlets at all; and I'msure I can't be Mabel, for I know all sorts of things, and she,oh! she knows such a very little!  Besides,
+140 chars
+>(118/1132)SHE'S she, and I'm I,and--oh dear, how puzzling it all is!  I'll try if I know all thethings I used to know.  Let me see:  four
+137 chars
+>(119/1132)times five is twelve,and four times six is thirteen, and four times seven is--oh dear!I shall never get to twenty at that rate! 
+138 chars
+>(120/1132)However, theMultiplication Table doesn't signify:  let's try Geography.London is the capital of Paris, and Paris is the capital of
+140 chars
+>(121/1132)Rome,and Rome--no, THAT'S all wrong, I'm certain!  I must have beenchanged for Mabel!  I'll try and say "How doth the
+127 chars
+>(122/1132)little--"'and she crossed her hands on her lap as if she were saying lessons,and began to repeat it, but her voice sounded hoarse
+139 chars
+>(123/1132)andstrange, and the words did not come the same as they used to do:--            `How doth the little crocodile             
+134 chars
+>(124/1132)Improve his shining tail,            And pour the waters of the Nile              On every golden scale!            `How
+130 chars
+>(125/1132)cheerfully he seems to grin,              How neatly spread his claws,            And welcome little fishes in              With
+138 chars
+>(126/1132)gently smiling jaws!'  `I'm sure those are not the right words,' said poor Alice, andher eyes filled with tears again as she went
+139 chars
+>(127/1132)on, `I must be Mabelafter all, and I shall have to go and live in that poky littlehouse, and have next to no toys to play with,
+137 chars
+>(128/1132)and oh! ever somany lessons to learn!  No, I've made up my mind about it; if I'mMabel, I'll stay down here!  It'll be no use their
+140 chars
+>(129/1132)putting theirheads down and saying "Come up again, dear!"  I shall only lookup and say "Who am I then?  Tell me that first, and
+137 chars
+>(130/1132)then, if Ilike being that person, I'll come up:  if not, I'll stay downhere till I'm somebody else"--but, oh dear!' cried Alice,
+138 chars
+>(131/1132)with asudden burst of tears, `I do wish they WOULD put their headsdown!  I am so VERY tired of being all alone here!'  As she said
+140 chars
+>(132/1132)this she looked down at her hands, and wassurprised to see that she had put on one of the Rabbit's littlewhite kid gloves while
+137 chars
+>(133/1132)she was talking.  `How CAN I have donethat?' she thought.  `I must be growing small again.'  She got upand went to the table to
+137 chars
+>(134/1132)measure herself by it, and found that,as nearly as she could guess, she was now about two feet high,and was going on shrinking
+136 chars
+>(135/1132)rapidly:  she soon found out that thecause of this was the fan she was holding, and she dropped ithastily, just in time to avoid
+138 chars
+>(136/1132)shrinking away altogether.`That WAS a narrow escape!' said Alice, a good deal frightened atthe sudden change, but very glad to
+136 chars
+>(137/1132)find herself still inexistence; `and now for the garden!' and she ran with all speedback to the little door:  but, alas! the
+134 chars
+>(138/1132)little door was shutagain, and the little golden key was lying on the glass table asbefore, `and things are worse than ever,'
+135 chars
+>(139/1132)thought the poor child,`for I never was so small as this before, never!  And I declareit's too bad, that it is!'  As she said
+135 chars
+>(140/1132)these words her foot slipped, and in anothermoment, splash! she was up to her chin in salt water.  Her firstidea was that she had
+139 chars
+>(141/1132)somehow fallen into the sea, `and in thatcase I can go back by railway,' she said to herself.  (Alice hadbeen to the seaside once
+139 chars
+>(142/1132)in her life, and had come to the generalconclusion, that wherever you go to on the English coast you finda number of bathing
+134 chars
+>(143/1132)machines in the sea, some children digging inthe sand with wooden spades, then a row of lodging houses, andbehind them a railway
+138 chars
+>(144/1132)station.)  However, she soon made out thatshe was in the pool of tears which she had wept when she was ninefeet high.  `I wish I
+138 chars
+>(145/1132)hadn't cried so much!' said Alice, as she swam about,trying to find her way out.  `I shall be punished for it now, Isuppose, by
+137 chars
+>(146/1132)being drowned in my own tears!  That WILL be a queerthing, to be sure!  However, everything is queer to-day.'  Just then she heard
+140 chars
+>(147/1132)something splashing about in the pool alittle way off, and she swam nearer to make out what it was:  atfirst she thought it must
+138 chars
+>(148/1132)be a walrus or hippopotamus, but thenshe remembered how small she was now, and she soon made out thatit was only a mouse that had
+139 chars
+>(149/1132)slipped in like herself.  `Would it be of any use, now,' thought Alice, `to speak to thismouse?  Everything is so out-of-the-way
+138 chars
+>(150/1132)down here, that I shouldthink very likely it can talk:  at any rate, there's no harm intrying.'  So she began:  `O Mouse, do you
+138 chars
+>(151/1132)know the way out ofthis pool?  I am very tired of swimming about here, O Mouse!'(Alice thought this must be the right way of
+134 chars
+>(152/1132)speaking to a mouse:she had never done such a thing before, but she remembered havingseen in her brother's Latin Grammar, `A
+134 chars
+>(153/1132)mouse--of a mouse--to amouse--a mouse--O mouse!')  The Mouse looked at her ratherinquisitively, and seemed to her to wink with one
+140 chars
+>(154/1132)of its littleeyes, but it said nothing.  `Perhaps it doesn't understand English,' thought Alice; `Idaresay it's a French mouse,
+137 chars
+>(155/1132)come over with William theConqueror.'  (For, with all her knowledge of history, Alice hadno very clear notion how long ago
+132 chars
+>(156/1132)anything had happened.)  So shebegan again:  `Ou est ma chatte?' which was the first sentence inher French lesson-book.  The Mouse
+140 chars
+>(157/1132)gave a sudden leap out of thewater, and seemed to quiver all over with fright.  `Oh, I begyour pardon!' cried Alice hastily,
+134 chars
+>(158/1132)afraid that she had hurt thepoor animal's feelings.  `I quite forgot you didn't like cats.'  `Not like cats!' cried the Mouse, in
+139 chars
+>(159/1132)a shrill, passionatevoice.  `Would YOU like cats if you were me?'  `Well, perhaps not,' said Alice in a soothing tone:  `don't
+136 chars
+>(160/1132)beangry about it.  And yet I wish I could show you our cat Dinah:I think you'd take a fancy to cats if you could only see her.She
+139 chars
+>(161/1132)is such a dear quiet thing,' Alice went on, half to herself,as she swam lazily about in the pool, `and she sits purring sonicely
+138 chars
+>(162/1132)by the fire, licking her paws and washing her face--andshe is such a nice soft thing to nurse--and she's such a capitalone for
+136 chars
+>(163/1132)catching mice--oh, I beg your pardon!' cried Alice again,for this time the Mouse was bristling all over, and she feltcertain it
+137 chars
+>(164/1132)must be really offended.  `We won't talk about her anymore if you'd rather not.'  `We indeed!' cried the Mouse, who was trembling
+139 chars
+>(165/1132)down to the endof his tail.  `As if I would talk on such a subject!  Our familyalways HATED cats:  nasty, low, vulgar things! 
+136 chars
+>(166/1132)Don't let me hearthe name again!'  `I won't indeed!' said Alice, in a great hurry to change thesubject of conversation.  `Are
+135 chars
+>(167/1132)you--are you fond--of--of dogs?'The Mouse did not answer, so Alice went on eagerly:  `There issuch a nice little dog near our
+135 chars
+>(168/1132)house I should like to show you!A little bright-eyed terrier, you know, with oh, such long curlybrown hair!  And it'll fetch
+134 chars
+>(169/1132)things when you throw them, andit'll sit up and beg for its dinner, and all sorts of things--Ican't remember half of them--and it
+139 chars
+>(170/1132)belongs to a farmer, youknow, and he says it's so useful, it's worth a hundred pounds!He says it kills all the rats and--oh dear!'
+140 chars
+>(171/1132)cried Alice in asorrowful tone, `I'm afraid I've offended it again!'  For theMouse was swimming away from her as hard as it could
+139 chars
+>(172/1132)go, andmaking quite a commotion in the pool as it went.  So she called softly after it, `Mouse dear!  Do come backagain, and we
+137 chars
+>(173/1132)won't talk about cats or dogs either, if you don'tlike them!'  When the Mouse heard this, it turned round and swamslowly back to
+138 chars
+>(174/1132)her:  its face was quite pale (with passion, Alicethought), and it said in a low trembling voice, `Let us get tothe shore, and
+136 chars
+>(175/1132)then I'll tell you my history, and you'llunderstand why it is I hate cats and dogs.'  It was high time to go, for the pool was
+136 chars
+>(176/1132)getting quite crowdedwith the birds and animals that had fallen into it:  there were aDuck and a Dodo, a Lory and an Eaglet, and
+138 chars
+>(177/1132)several other curiouscreatures.  Alice led the way, and the whole party swam to theshore.                           CHAPTER III   
+140 chars
+>(178/1132)A Caucus-Race and a Long Tale  They were indeed a queer-looking party that assembled on thebank--the birds with draggled feathers,
+140 chars
+>(179/1132)the animals with theirfur clinging close to them, and all dripping wet, cross, anduncomfortable.  The first question of course
+136 chars
+>(180/1132)was, how to get dry again:  theyhad a consultation about this, and after a few minutes it seemedquite natural to Alice to find
+136 chars
+>(181/1132)herself talking familiarly withthem, as if she had known them all her life.  Indeed, she hadquite a long argument with the Lory,
+138 chars
+>(182/1132)who at last turned sulky,and would only say, `I am older than you, and must know better';and this Alice would not allow without
+137 chars
+>(183/1132)knowing how old it was,and, as the Lory positively refused to tell its age, there was nomore to be said.  At last the Mouse, who
+138 chars
+>(184/1132)seemed to be a person of authority amongthem, called out, `Sit down, all of you, and listen to me!  I'LLsoon make you dry enough!'
+140 chars
+>(185/1132)They all sat down at once, in a largering, with the Mouse in the middle.  Alice kept her eyesanxiously fixed on it, for she felt
+138 chars
+>(186/1132)sure she would catch a badcold if she did not get dry very soon.  `Ahem!' said the Mouse with an important air, `are you all
+134 chars
+>(187/1132)ready?This is the driest thing I know.  Silence all round, if you please!"William the Conqueror, whose cause was favoured by the
+138 chars
+>(188/1132)pope, wassoon submitted to by the English, who wanted leaders, and had beenof late much accustomed to usurpation and conquest. 
+137 chars
+>(189/1132)Edwin andMorcar, the earls of Mercia and Northumbria--"'  `Ugh!' said the Lory, with a shiver.  `I beg your pardon!' said the
+135 chars
+>(190/1132)Mouse, frowning, but verypolitely:  `Did you speak?'  `Not I!' said the Lory hastily.  `I thought you did,' said the Mouse.  `--I
+139 chars
+>(191/1132)proceed.  "Edwin andMorcar, the earls of Mercia and Northumbria, declared for him:and even Stigand, the patriotic archbishop of
+137 chars
+>(192/1132)Canterbury, foundit advisable--"'  `Found WHAT?' said the Duck.  `Found IT,' the Mouse replied rather crossly:  `of course youknow
+140 chars
+>(193/1132)what "it" means.'  `I know what "it" means well enough, when I find a thing,' saidthe Duck:  `it's generally a frog or a worm. 
+137 chars
+>(194/1132)The question is,what did the archbishop find?'  The Mouse did not notice this question, but hurriedly went on,`"--found it
+132 chars
+>(195/1132)advisable to go with Edgar Atheling to meet Williamand offer him the crown.  William's conduct at first wasmoderate.  But the
+135 chars
+>(196/1132)insolence of his Normans--"  How are yougetting on now, my dear?' it continued, turning to Alice as itspoke.  `As wet as ever,'
+137 chars
+>(197/1132)said Alice in a melancholy tone:  `it doesn'tseem to dry me at all.'  `In that case,' said the Dodo solemnly, rising to its feet,
+139 chars
+>(198/1132)`Imove that the meeting adjourn, for the immediate adoption of moreenergetic remedies--'  `Speak English!' said the Eaglet.  `I
+137 chars
+>(199/1132)don't know the meaning ofhalf those long words, and, what's more, I don't believe you doeither!'  And the Eaglet bent down its
+136 chars
+>(200/1132)head to hide a smile:some of the other birds tittered audibly.  `What I was going to say,' said the Dodo in an offended tone,`was,
+140 chars
+>(201/1132)that the best thing to get us dry would be a Caucus-race.'  `What IS a Caucus-race?' said Alice; not that she wanted muchto know,
+139 chars
+>(202/1132)but the Dodo had paused as if it thought that SOMEBODYought to speak, and no one else seemed inclined to say anything.  `Why,'
+136 chars
+>(203/1132)said the Dodo, `the best way to explain it is to do it.'(And, as you might like to try the thing yourself, some winterday, I will
+139 chars
+>(204/1132)tell you how the Dodo managed it.)  First it marked out a race-course, in a sort of circle, (`theexact shape doesn't matter,' it
+138 chars
+>(205/1132)said,) and then all the partywere placed along the course, here and there.  There was no `One,two, three, and away,' but they
+135 chars
+>(206/1132)began running when they liked,and left off when they liked, so that it was not easy to knowwhen the race was over.  However, when
+139 chars
+>(207/1132)they had been running halfan hour or so, and were quite dry again, the Dodo suddenly calledout `The race is over!' and they all
+137 chars
+>(208/1132)crowded round it, panting,and asking, `But who has won?'  This question the Dodo could not answer without a great deal ofthought,
+139 chars
+>(209/1132)and it sat for a long time with one finger pressed uponits forehead (the position in which you usually see Shakespeare,in the
+135 chars
+>(210/1132)pictures of him), while the rest waited in silence.  Atlast the Dodo said, `EVERYBODY has won, and all must haveprizes.'  `But who
+140 chars
+>(211/1132)is to give the prizes?' quite a chorus of voicesasked.  `Why, SHE, of course,' said the Dodo, pointing to Alice withone finger;
+137 chars
+>(212/1132)and the whole party at once crowded round her,calling out in a confused way, `Prizes! Prizes!'  Alice had no idea what to do, and
+139 chars
+>(213/1132)in despair she put her handin her pocket, and pulled out a box of comfits, (luckily the saltwater had not got into it), and handed
+140 chars
+>(214/1132)them round as prizes.There was exactly one a-piece all round.  `But she must have a prize herself, you know,' said the Mouse.  `Of
+140 chars
+>(215/1132)course,' the Dodo replied very gravely.  `What else haveyou got in your pocket?' he went on, turning to Alice.  `Only a thimble,'
+139 chars
+>(216/1132)said Alice sadly.  `Hand it over here,' said the Dodo.  Then they all crowded round her once more, while the Dodosolemnly
+131 chars
+>(217/1132)presented the thimble, saying `We beg your acceptance ofthis elegant thimble'; and, when it had finished this shortspeech, they
+137 chars
+>(218/1132)all cheered.  Alice thought the whole thing very absurd, but they all lookedso grave that she did not dare to laugh; and, as she
+138 chars
+>(219/1132)could notthink of anything to say, she simply bowed, and took the thimble,looking as solemn as she could.  The next thing was to
+138 chars
+>(220/1132)eat the comfits:  this caused some noiseand confusion, as the large birds complained that they could nottaste theirs, and the
+135 chars
+>(221/1132)small ones choked and had to be patted onthe back.  However, it was over at last, and they sat down againin a ring, and begged the
+140 chars
+>(222/1132)Mouse to tell them something more.  `You promised to tell me your history, you know,' said Alice,`and why it is you hate--C and
+137 chars
+>(223/1132)D,' she added in a whisper, halfafraid that it would be offended again.  `Mine is a long and a sad tale!' said the Mouse, turning
+139 chars
+>(224/1132)toAlice, and sighing.  `It IS a long tail, certainly,' said Alice, looking down withwonder at the Mouse's tail; `but why do you
+137 chars
+>(225/1132)call it sad?'  Andshe kept on puzzling about it while the Mouse was speaking, sothat her idea of the tale was something like
+134 chars
+>(226/1132)this:--                    `Fury said to a                   mouse, That he                 met in the               house,       
+140 chars
+>(227/1132)"Let us              both go to                law:  I will                  prosecute                    YOU.  --Come,           
+140 chars
+>(228/1132)I'll take no                        denial; We                     must have a                 trial:  For              really
+136 chars
+>(229/1132)this           morning I've          nothing         to do."           Said the             mouse to the               cur, "Such 
+140 chars
+>(230/1132)a trial,                   dear Sir,                         With                     no jury                  or judge,          
+140 chars
+>(231/1132)would be              wasting             our              breath."               "I'll be                 judge, I'll            
+140 chars
+>(232/1132)be jury,"                         Said                    cunning                      old Fury:                     "I'll        
+140 chars
+>(233/1132)try the                         whole                          cause,                             and                       
+134 chars
+>(234/1132)condemn                       you                      to                       death."'  `You are not attending!' said the Mouse
+139 chars
+>(235/1132)to Alice severely.`What are you thinking of?'  `I beg your pardon,' said Alice very humbly:  `you had got tothe fifth bend, I
+135 chars
+>(236/1132)think?'  `I had NOT!' cried the Mouse, sharply and very angrily.  `A knot!' said Alice, always ready to make herself useful,
+134 chars
+>(237/1132)andlooking anxiously about her.  `Oh, do let me help to undo it!'  `I shall do nothing of the sort,' said the Mouse, getting upand
+140 chars
+>(238/1132)walking away.  `You insult me by talking such nonsense!'  `I didn't mean it!' pleaded poor Alice.  `But you're so easilyoffended,
+139 chars
+>(239/1132)you know!'  The Mouse only growled in reply.  `Please come back and finish your story!' Alice called afterit; and the others all
+138 chars
+>(240/1132)joined in chorus, `Yes, please do!' butthe Mouse only shook its head impatiently, and walked a littlequicker.  `What a pity it
+136 chars
+>(241/1132)wouldn't stay!' sighed the Lory, as soon as itwas quite out of sight; and an old Crab took the opportunity ofsaying to her
+132 chars
+>(242/1132)daughter `Ah, my dear!  Let this be a lesson to younever to lose YOUR temper!'  `Hold your tongue, Ma!' said theyoung Crab, a
+135 chars
+>(243/1132)little snappishly.  `You're enough to try thepatience of an oyster!'  `I wish I had our Dinah here, I know I do!' said Alice
+134 chars
+>(244/1132)aloud,addressing nobody in particular.  `She'd soon fetch it back!'  `And who is Dinah, if I might venture to ask the
+127 chars
+>(245/1132)question?'said the Lory.  Alice replied eagerly, for she was always ready to talk abouther pet:  `Dinah's our cat.  And she's such
+140 chars
+>(246/1132)a capital one forcatching mice you can't think!  And oh, I wish you could see herafter the birds!  Why, she'll eat a little bird
+138 chars
+>(247/1132)as soon as lookat it!'  This speech caused a remarkable sensation among the party.Some of the birds hurried off at once:  one old
+139 chars
+>(248/1132)Magpie beganwrapping itself up very carefully, remarking, `I really must begetting home; the night-air doesn't suit my throat!'
+137 chars
+>(249/1132)and a Canarycalled out in a trembling voice to its children, `Come away, mydears!  It's high time you were all in bed!'  On
+133 chars
+>(250/1132)various pretextsthey all moved off, and Alice was soon left alone.  `I wish I hadn't mentioned Dinah!' she said to herself in
+135 chars
+>(251/1132)amelancholy tone.  `Nobody seems to like her, down here, and I'msure she's the best cat in the world!  Oh, my dear Dinah!  Iwonder
+140 chars
+>(252/1132)if I shall ever see you any more!'  And here poor Alicebegan to cry again, for she felt very lonely and low-spirited.In a little
+138 chars
+>(253/1132)while, however, she again heard a little pattering offootsteps in the distance, and she looked up eagerly, half hopingthat the
+136 chars
+>(254/1132)Mouse had changed his mind, and was coming back tofinish his story.                           CHAPTER IV                The Rabbit
+140 chars
+>(255/1132)Sends in a Little Bill  It was the White Rabbit, trotting slowly back again, andlooking anxiously about as it went, as if it had
+138 chars
+>(256/1132)lost something;and she heard it muttering to itself `The Duchess!  The Duchess!Oh my dear paws!  Oh my fur and whiskers!  She'll
+138 chars
+>(257/1132)get meexecuted, as sure as ferrets are ferrets!  Where CAN I havedropped them, I wonder?'  Alice guessed in a moment that it
+134 chars
+>(258/1132)waslooking for the fan and the pair of white kid gloves, and shevery good-naturedly began hunting about for them, but they
+132 chars
+>(259/1132)werenowhere to be seen--everything seemed to have changed since herswim in the pool, and the great hall, with the glass table
+135 chars
+>(260/1132)andthe little door, had vanished completely.  Very soon the Rabbit noticed Alice, as she went hunting about,and called out to her
+139 chars
+>(261/1132)in an angry tone, `Why, Mary Ann, what AREyou doing out here?  Run home this moment, and fetch me a pair ofgloves and a fan! 
+135 chars
+>(262/1132)Quick, now!'  And Alice was so much frightenedthat she ran off at once in the direction it pointed to, withouttrying to explain
+137 chars
+>(263/1132)the mistake it had made.  `He took me for his housemaid,' she said to herself as she ran.`How surprised he'll be when he finds out
+140 chars
+>(264/1132)who I am!  But I'dbetter take him his fan and gloves--that is, if I can find them.'As she said this, she came upon a neat little
+138 chars
+>(265/1132)house, on the doorof which was a bright brass plate with the name `W. RABBIT'engraved upon it.  She went in without knocking, and
+139 chars
+>(266/1132)hurriedupstairs, in great fear lest she should meet the real Mary Ann,and be turned out of the house before she had found the fan
+139 chars
+>(267/1132)andgloves.  `How queer it seems,' Alice said to herself, `to be goingmessages for a rabbit!  I suppose Dinah'll be sending me
+135 chars
+>(268/1132)onmessages next!'  And she began fancying the sort of thing thatwould happen:  `"Miss Alice!  Come here directly, and get readyfor
+140 chars
+>(269/1132)your walk!" "Coming in a minute, nurse!  But I've got to seethat the mouse doesn't get out."  Only I don't think,' Alice wenton,
+138 chars
+>(270/1132)`that they'd let Dinah stop in the house if it began orderingpeople about like that!'  By this time she had found her way into a
+138 chars
+>(271/1132)tidy little room witha table in the window, and on it (as she had hoped) a fan and twoor three pairs of tiny white kid gloves: 
+137 chars
+>(272/1132)she took up the fan anda pair of the gloves, and was just going to leave the room, whenher eye fell upon a little bottle that
+135 chars
+>(273/1132)stood near the looking-glass.  There was no label this time with the words `DRINK ME,'but nevertheless she uncorked it and put it
+139 chars
+>(274/1132)to her lips.  `I knowSOMETHING interesting is sure to happen,' she said to herself,`whenever I eat or drink anything; so I'll just
+140 chars
+>(275/1132)see what thisbottle does.  I do hope it'll make me grow large again, forreally I'm quite tired of being such a tiny little thing!'
+140 chars
+>(276/1132)It did so indeed, and much sooner than she had expected:before she had drunk half the bottle, she found her head pressingagainst
+138 chars
+>(277/1132)the ceiling, and had to stoop to save her neck from beingbroken.  She hastily put down the bottle, saying to herself`That's quite
+139 chars
+>(278/1132)enough--I hope I shan't grow any more--As it is, Ican't get out at the door--I do wish I hadn't drunk quite somuch!'  Alas! it was
+140 chars
+>(279/1132)too late to wish that!  She went on growing, andgrowing, and very soon had to kneel down on the floor:  inanother minute there was
+140 chars
+>(280/1132)not even room for this, and she triedthe effect of lying down with one elbow against the door, and theother arm curled round her
+138 chars
+>(281/1132)head.  Still she went on growing, and,as a last resource, she put one arm out of the window, and onefoot up the chimney, and said
+139 chars
+>(282/1132)to herself `Now I can do no more,whatever happens.  What WILL become of me?'  Luckily for Alice, the little magic bottle had now
+138 chars
+>(283/1132)had its fulleffect, and she grew no larger:  still it was very uncomfortable,and, as there seemed to be no sort of chance of her
+138 chars
+>(284/1132)ever gettingout of the room again, no wonder she felt unhappy.  `It was much pleasanter at home,' thought poor Alice, `when
+133 chars
+>(285/1132)onewasn't always growing larger and smaller, and being ordered aboutby mice and rabbits.  I almost wish I hadn't gone down
+132 chars
+>(286/1132)thatrabbit-hole--and yet--and yet--it's rather curious, you know,this sort of life!  I do wonder what CAN have happened to me!When
+140 chars
+>(287/1132)I used to read fairy-tales, I fancied that kind of thingnever happened, and now here I am in the middle of one!  Thereought to be
+139 chars
+>(288/1132)a book written about me, that there ought!  And whenI grow up, I'll write one--but I'm grown up now,' she added in asorrowful
+135 chars
+>(289/1132)tone; `at least there's no room to grow up any moreHERE.'  `But then,' thought Alice, `shall I NEVER get any older than Iam now? 
+139 chars
+>(290/1132)That'll be a comfort, one way--never to be an old woman--but then--always to have lessons to learn!  Oh, I shouldn't like THAT!' 
+139 chars
+>(291/1132)`Oh, you foolish Alice!' she answered herself.  `How can youlearn lessons in here?  Why, there's hardly room for YOU, and noroom
+138 chars
+>(292/1132)at all for any lesson-books!'  And so she went on, taking first one side and then the other,and making quite a conversation of it
+139 chars
+>(293/1132)altogether; but after a fewminutes she heard a voice outside, and stopped to listen.  `Mary Ann!  Mary Ann!' said the voice. 
+135 chars
+>(294/1132)`Fetch me my glovesthis moment!'  Then came a little pattering of feet on thestairs.  Alice knew it was the Rabbit coming to look
+139 chars
+>(295/1132)for her, andshe trembled till she shook the house, quite forgetting that shewas now about a thousand times as large as the Rabbit,
+140 chars
+>(296/1132)and had noreason to be afraid of it.  Presently the Rabbit came up to the door, and tried to open it;but, as the door opened
+134 chars
+>(297/1132)inwards, and Alice's elbow was pressedhard against it, that attempt proved a failure.  Alice heard itsay to itself `Then I'll go
+138 chars
+>(298/1132)round and get in at the window.'  `THAT you won't' thought Alice, and, after waiting till shefancied she heard the Rabbit just
+136 chars
+>(299/1132)under the window, she suddenlyspread out her hand, and made a snatch in the air.  She did notget hold of anything, but she heard a
+140 chars
+>(300/1132)little shriek and a fall,and a crash of broken glass, from which she concluded that it wasjust possible it had fallen into a
+134 chars
+>(301/1132)cucumber-frame, or somethingof the sort.  Next came an angry voice--the Rabbit's--`Pat! Pat!  Where areyou?'  And then a voice she
+140 chars
+>(302/1132)had never heard before, `Sure thenI'm here!  Digging for apples, yer honour!'  `Digging for apples, indeed!' said the Rabbit
+134 chars
+>(303/1132)angrily.  `Here!Come and help me out of THIS!'  (Sounds of more broken glass.)  `Now tell me, Pat, what's that in the window?' 
+137 chars
+>(304/1132)`Sure, it's an arm, yer honour!'  (He pronounced it `arrum.')  `An arm, you goose!   Who ever saw one that size?  Why, itfills the
+140 chars
+>(305/1132)whole window!'  `Sure, it does, yer honour:  but it's an arm for all that.'  `Well, it's got no business there, at any rate:  go
+138 chars
+>(306/1132)and take itaway!'  There was a long silence after this, and Alice could only hearwhispers now and then; such as, `Sure, I don't
+137 chars
+>(307/1132)like it, yerhonour, at all, at all!'  `Do as I tell you, you coward!' and atlast she spread out her hand again, and made another
+138 chars
+>(308/1132)snatch inthe air.  This time there were TWO little shrieks, and moresounds of broken glass.  `What a number of cucumber-frames
+136 chars
+>(309/1132)theremust be!' thought Alice.  `I wonder what they'll do next!  As forpulling me out of the window, I only wish they COULD!  I'm
+138 chars
+>(310/1132)sure Idon't want to stay in here any longer!'  She waited for some time without hearing anything more:  atlast came a rumbling of
+139 chars
+>(311/1132)little cartwheels, and the sound of agood many voices all talking together:  she made out the words:`Where's the other
+128 chars
+>(312/1132)ladder?--Why, I hadn't to bring but one;Bill's got the other--Bill! fetch it here, lad!--Here, put 'em upat this corner--No, tie
+138 chars
+>(313/1132)'em together first--they don't reach halfhigh enough yet--Oh! they'll do well enough; don't be particular--Here, Bill! catch hold
+139 chars
+>(314/1132)of this rope--Will the roof bear?--Mindthat loose slate--Oh, it's coming down!  Heads below!' (a loudcrash)--`Now, who did
+132 chars
+>(315/1132)that?--It was Bill, I fancy--Who's to godown the chimney?--Nay, I shan't! YOU do it!--That I won't,then!--Bill's to go down--Here,
+140 chars
+>(316/1132)Bill! the master says you're togo down the chimney!'  `Oh! So Bill's got to come down the chimney, has he?' saidAlice to herself. 
+140 chars
+>(317/1132)`Shy, they seem to put everything upon Bill!I wouldn't be in Bill's place for a good deal:  this fireplace isnarrow, to be sure;
+138 chars
+>(318/1132)but I THINK I can kick a little!'  She drew her foot as far down the chimney as she could, andwaited till she heard a little
+134 chars
+>(319/1132)animal (she couldn't guess of whatsort it was) scratching and scrambling about in the chimney closeabove her:  then, saying to
+136 chars
+>(320/1132)herself `This is Bill,' she gave onesharp kick, and waited to see what would happen next.  The first thing she heard was a general
+140 chars
+>(321/1132)chorus of `There goesBill!' then the Rabbit's voice along--`Catch him, you by thehedge!' then silence, and then another confusion
+139 chars
+>(322/1132)of voices--`Holdup his head--Brandy now--Don't choke him--How was it, old fellow?What happened to you?  Tell us all about it!' 
+137 chars
+>(323/1132)Last came a little feeble, squeaking voice, (`That's Bill,'thought Alice,) `Well, I hardly know--No more, thank ye; I'mbetter
+135 chars
+>(324/1132)now--but I'm a deal too flustered to tell you--all I knowis, something comes at me like a Jack-in-the-box, and up I goeslike a
+136 chars
+>(325/1132)sky-rocket!'  `So you did, old fellow!' said the others.  `We must burn the house down!' said the Rabbit's voice; andAlice called
+139 chars
+>(326/1132)out as loud as she could, `If you do.  I'll setDinah at you!'  There was a dead silence instantly, and Alice thought toherself, `I
+140 chars
+>(327/1132)wonder what they WILL do next!  If they had anysense, they'd take the roof off.'  After a minute or two, theybegan moving about
+137 chars
+>(328/1132)again, and Alice heard the Rabbit say, `Abarrowful will do, to begin with.'  `A barrowful of WHAT?' thought Alice; but she had not
+140 chars
+>(329/1132)long todoubt, for the next moment a shower of little pebbles camerattling in at the window, and some of them hit her in the
+133 chars
+>(330/1132)face.`I'll put a stop to this,' she said to herself, and shouted out,`You'd better not do that again!' which produced another
+135 chars
+>(331/1132)deadsilence.  Alice noticed with some surprise that the pebbles were allturning into little cakes as they lay on the floor, and a
+139 chars
+>(332/1132)brightidea came into her head.  `If I eat one of these cakes,' shethought, `it's sure to make SOME change in my size; and as
+134 chars
+>(333/1132)itcan't possibly make me larger, it must make me smaller, Isuppose.'  So she swallowed one of the cakes, and was delighted to
+135 chars
+>(334/1132)findthat she began shrinking directly.  As soon as she was smallenough to get through the door, she ran out of the house, andfound
+140 chars
+>(335/1132)quite a crowd of little animals and birds waiting outside.The poor little Lizard, Bill, was in the middle, being held up bytwo
+136 chars
+>(336/1132)guinea-pigs, who were giving it something out of a bottle.They all made a rush at Alice the moment she appeared; but sheran off as
+140 chars
+>(337/1132)hard as she could, and soon found herself safe in athick wood.  `The first thing I've got to do,' said Alice to herself, as
+133 chars
+>(338/1132)shewandered about in the wood, `is to grow to my right size again;and the second thing is to find my way into that lovely garden.I
+140 chars
+>(339/1132)think that will be the best plan.'  It sounded an excellent plan, no doubt, and very neatly andsimply arranged; the only
+130 chars
+>(340/1132)difficulty was, that she had not thesmallest idea how to set about it; and while she was peeringabout anxiously among the trees, a
+140 chars
+>(341/1132)little sharp bark just overher head made her look up in a great hurry.  An enormous puppy was looking down at her with large
+134 chars
+>(342/1132)roundeyes, and feebly stretching out one paw, trying to touch her.`Poor little thing!' said Alice, in a coaxing tone, and she
+135 chars
+>(343/1132)triedhard to whistle to it; but she was terribly frightened all thetime at the thought that it might be hungry, in which case
+135 chars
+>(344/1132)itwould be very likely to eat her up in spite of all her coaxing.  Hardly knowing what she did, she picked up a little bit
+132 chars
+>(345/1132)ofstick, and held it out to the puppy; whereupon the puppy jumpedinto the air off all its feet at once, with a yelp of delight,and
+140 chars
+>(346/1132)rushed at the stick, and made believe to worry it; then Alicedodged behind a great thistle, to keep herself from being runover;
+137 chars
+>(347/1132)and the moment she appeared on the other side, the puppymade another rush at the stick, and tumbled head over heels inits hurry to
+140 chars
+>(348/1132)get hold of it; then Alice, thinking it was verylike having a game of play with a cart-horse, and expecting everymoment to be
+135 chars
+>(349/1132)trampled under its feet, ran round the thistleagain; then the puppy began a series of short charges at thestick, running a very
+137 chars
+>(350/1132)little way forwards each time and a longway back, and barking hoarsely all the while, till at last it satdown a good way off,
+135 chars
+>(351/1132)panting, with its tongue hanging out of itsmouth, and its great eyes half shut.  This seemed to Alice a good opportunity for
+134 chars
+>(352/1132)making her escape;so she set off at once, and ran till she was quite tired and outof breath, and till the puppy's bark sounded
+136 chars
+>(353/1132)quite faint in thedistance.  `And yet what a dear little puppy it was!' said Alice, as sheleant against a buttercup to rest
+133 chars
+>(354/1132)herself, and fanned herselfwith one of the leaves:  `I should have liked teaching it tricksvery much, if--if I'd only been the
+136 chars
+>(355/1132)right size to do it!  Ohdear!  I'd nearly forgotten that I've got to grow up again!  Letme see--how IS it to be managed?  I
+133 chars
+>(356/1132)suppose I ought to eat ordrink something or other; but the great question is, what?'  The great question certainly was, what? 
+136 chars
+>(357/1132)Alice looked all roundher at the flowers and the blades of grass, but she did not seeanything that looked like the right thing to
+139 chars
+>(358/1132)eat or drink underthe circumstances.  There was a large mushroom growing near her,about the same height as herself; and when she
+138 chars
+>(359/1132)had looked underit, and on both sides of it, and behind it, it occurred to herthat she might as well look and see what was on the
+139 chars
+>(360/1132)top of it.  She stretched herself up on tiptoe, and peeped over the edge ofthe mushroom, and her eyes immediately met those of a
+138 chars
+>(361/1132)largecaterpillar, that was sitting on the top with its arms folded,quietly smoking a long hookah, and taking not the smallest
+135 chars
+>(362/1132)noticeof her or of anything else.                            CHAPTER V                    Advice from a Caterpillar  The
+130 chars
+>(363/1132)Caterpillar and Alice looked at each other for some time insilence:  at last the Caterpillar took the hookah out of itsmouth, and
+139 chars
+>(364/1132)addressed her in a languid, sleepy voice.  `Who are YOU?' said the Caterpillar.  This was not an encouraging opening for a
+132 chars
+>(365/1132)conversation.  Alicereplied, rather shyly, `I--I hardly know, sir, just at present--at least I know who I WAS when I got up this
+138 chars
+>(366/1132)morning, but I thinkI must have been changed several times since then.'  `What do you mean by that?' said the Caterpillar
+131 chars
+>(367/1132)sternly.`Explain yourself!'  `I can't explain MYSELF, I'm afraid, sir' said Alice, `becauseI'm not myself, you see.'  `I don't
+136 chars
+>(368/1132)see,' said the Caterpillar.  `I'm afraid I can't put it more clearly,' Alice replied verypolitely, `for I can't understand it
+135 chars
+>(369/1132)myself to begin with; andbeing so many different sizes in a day is very confusing.'  `It isn't,' said the Caterpillar.  `Well,
+136 chars
+>(370/1132)perhaps you haven't found it so yet,' said Alice; `butwhen you have to turn into a chrysalis--you will some day, youknow--and then
+140 chars
+>(371/1132)after that into a butterfly, I should think you'llfeel it a little queer, won't you?'  `Not a bit,' said the Caterpillar.  `Well,
+139 chars
+>(372/1132)perhaps your feelings may be different,' said Alice;`all I know is, it would feel very queer to ME.'  `You!' said the Caterpillar
+139 chars
+>(373/1132)contemptuously.  `Who are YOU?'  Which brought them back again to the beginning of theconversation.  Alice felt a little irritated
+140 chars
+>(374/1132)at the Caterpillar'smaking such VERY short remarks, and she drew herself up and said,very gravely, `I think, you ought to tell me
+139 chars
+>(375/1132)who YOU are, first.'  `Why?' said the Caterpillar.  Here was another puzzling question; and as Alice could notthink of any good
+137 chars
+>(376/1132)reason, and as the Caterpillar seemed to be ina VERY unpleasant state of mind, she turned away.  `Come back!' the Caterpillar
+135 chars
+>(377/1132)called after her.  `I've somethingimportant to say!'  This sounded promising, certainly:  Alice turned and came backagain.  `Keep
+139 chars
+>(378/1132)your temper,' said the Caterpillar.  `Is that all?' said Alice, swallowing down her anger as well asshe could.  `No,' said the
+136 chars
+>(379/1132)Caterpillar.  Alice thought she might as well wait, as she had nothing elseto do, and perhaps after all it might tell her
+131 chars
+>(380/1132)something worthhearing.  For some minutes it puffed away without speaking, butat last it unfolded its arms, took the hookah out of
+140 chars
+>(381/1132)its mouthagain, and said, `So you think you're changed, do you?'  `I'm afraid I am, sir,' said Alice; `I can't remember things asI
+140 chars
+>(382/1132)used--and I don't keep the same size for ten minutes together!'  `Can't remember WHAT things?' said the Caterpillar.  `Well, I've
+139 chars
+>(383/1132)tried to say "HOW DOTH THE LITTLE BUSY BEE," but itall came different!' Alice replied in a very melancholy voice.  `Repeat, "YOU
+138 chars
+>(384/1132)ARE OLD, FATHER WILLIAM,"' said the Caterpillar.  Alice folded her hands, and began:--    `You are old, Father William,' the young
+140 chars
+>(385/1132)man said,      `And your hair has become very white;    And yet you incessantly stand on your head--      Do you think, at your
+137 chars
+>(386/1132)age, it is right?'    `In my youth,' Father William replied to his son,      `I feared it might injure the brain;    But, now that
+140 chars
+>(387/1132)I'm perfectly sure I have none,      Why, I do it again and again.'    `You are old,' said the youth, `as I mentioned before,     
+140 chars
+>(388/1132)And have grown most uncommonly fat;    Yet you turned a back-somersault in at the door--      Pray, what is the reason of that?'  
+140 chars
+>(389/1132)`In my youth,' said the sage, as he shook his grey locks,      `I kept all my limbs very supple    By the use of this
+127 chars
+>(390/1132)ointment--one shilling the box--      Allow me to sell you a couple?'    `You are old,' said the youth, `and your jaws are too
+136 chars
+>(391/1132)weak      For anything tougher than suet;    Yet you finished the goose, with the bones and the beak--      Pray how did you
+134 chars
+>(392/1132)manage to do it?'    `In my youth,' said his father, `I took to the law,      And argued each case with my wife;    And the
+133 chars
+>(393/1132)muscular strength, which it gave to my jaw,      Has lasted the rest of my life.'    `You are old,' said the youth, `one would
+136 chars
+>(394/1132)hardly suppose      That your eye was as steady as ever;    Yet you balanced an eel on the end of your nose--      What made you
+138 chars
+>(395/1132)so awfully clever?'    `I have answered three questions, and that is enough,'      Said his father; `don't give yourself airs!   
+139 chars
+>(396/1132)Do you think I can listen all day to such stuff?      Be off, or I'll kick you down stairs!'  `That is not said right,' said the
+138 chars
+>(397/1132)Caterpillar.  `Not QUITE right, I'm afraid,' said Alice, timidly; `some of thewords have got altered.'  `It is wrong from
+131 chars
+>(398/1132)beginning to end,' said the Caterpillardecidedly, and there was silence for some minutes.  The Caterpillar was the first to speak.
+140 chars
+>(399/1132)`What size do you want to be?' it asked.  `Oh, I'm not particular as to size,' Alice hastily replied;`only one doesn't like
+133 chars
+>(400/1132)changing so often, you know.'  `I DON'T know,' said the Caterpillar.  Alice said nothing:  she had never been so much contradicted
+140 chars
+>(401/1132)inher life before, and she felt that she was losing her temper.  `Are you content now?' said the Caterpillar.  `Well, I should
+136 chars
+>(402/1132)like to be a LITTLE larger, sir, if youwouldn't mind,' said Alice:  `three inches is such a wretchedheight to be.'  `It is a very
+139 chars
+>(403/1132)good height indeed!' said the Caterpillarangrily, rearing itself upright as it spoke (it was exactly threeinches high).  `But I'm
+139 chars
+>(404/1132)not used to it!' pleaded poor Alice in a piteous tone.And she thought of herself, `I wish the creatures wouldn't be soeasily
+134 chars
+>(405/1132)offended!'  `You'll get used to it in time,' said the Caterpillar; and itput the hookah into its mouth and began smoking again. 
+138 chars
+>(406/1132)This time Alice waited patiently until it chose to speak again.In a minute or two the Caterpillar took the hookah out of itsmouth
+139 chars
+>(407/1132)and yawned once or twice, and shook itself.  Then it gotdown off the mushroom, and crawled away in the grass, merelyremarking as
+138 chars
+>(408/1132)it went, `One side will make you grow taller, andthe other side will make you grow shorter.'  `One side of WHAT?  The other side
+138 chars
+>(409/1132)of WHAT?' thought Alice toherself.  `Of the mushroom,' said the Caterpillar, just as if she hadasked it aloud; and in another
+135 chars
+>(410/1132)moment it was out of sight.  Alice remained looking thoughtfully at the mushroom for aminute, trying to make out which were the
+137 chars
+>(411/1132)two sides of it; and asit was perfectly round, she found this a very difficult question.However, at last she stretched her arms
+137 chars
+>(412/1132)round it as far as theywould go, and broke off a bit of the edge with each hand.  `And now which is which?' she said to herself,
+138 chars
+>(413/1132)and nibbled alittle of the right-hand bit to try the effect:  the next momentshe felt a violent blow underneath her chin:  it had
+139 chars
+>(414/1132)struck herfoot!  She was a good deal frightened by this very sudden change, butshe felt that there was no time to be lost, as she
+139 chars
+>(415/1132)was shrinkingrapidly; so she set to work at once to eat some of the other bit.Her chin was pressed so closely against her foot,
+137 chars
+>(416/1132)that there washardly room to open her mouth; but she did it at last, andmanaged to swallow a morsel of the lefthand bit.     *    
+140 chars
+>(417/1132)*       *       *       *       *       *         *       *       *       *       *       *     *       *       *       *       * 
+140 chars
+>(418/1132)*       *  `Come, my head's free at last!' said Alice in a tone ofdelight, which changed into alarm in another moment, when
+133 chars
+>(419/1132)shefound that her shoulders were nowhere to be found:  all she couldsee, when she looked down, was an immense length of neck,
+135 chars
+>(420/1132)whichseemed to rise like a stalk out of a sea of green leaves that layfar below her.  `What CAN all that green stuff be?' said
+136 chars
+>(421/1132)Alice.  `And whereHAVE my shoulders got to?  And oh, my poor hands, how is it Ican't see you?'  She was moving them about as she
+138 chars
+>(422/1132)spoke, but noresult seemed to follow, except a little shaking among thedistant green leaves.  As there seemed to be no chance of
+138 chars
+>(423/1132)getting her hands up to herhead, she tried to get her head down to them, and was delightedto find that her neck would bend about
+138 chars
+>(424/1132)easily in any direction,like a serpent.  She had just succeeded in curving it down into agraceful zigzag, and was going to dive in
+140 chars
+>(425/1132)among the leaves, whichshe found to be nothing but the tops of the trees under which shehad been wandering, when a sharp hiss made
+140 chars
+>(426/1132)her draw back in ahurry:  a large pigeon had flown into her face, and was beatingher violently with its wings.  `Serpent!'
+132 chars
+>(427/1132)screamed the Pigeon.  `I'm NOT a serpent!' said Alice indignantly.  `Let me alone!'  `Serpent, I say again!' repeated the Pigeon,
+139 chars
+>(428/1132)but in a moresubdued tone, and added with a kind of sob, `I've tried everyway, and nothing seems to suit them!'  `I haven't the
+137 chars
+>(429/1132)least idea what you're talking about,' saidAlice.  `I've tried the roots of trees, and I've tried banks, and I'vetried hedges,'
+137 chars
+>(430/1132)the Pigeon went on, without attending to her; `butthose serpents!  There's no pleasing them!'  Alice was more and more puzzled,
+137 chars
+>(431/1132)but she thought there was nouse in saying anything more till the Pigeon had finished.  `As if it wasn't trouble enough hatching
+137 chars
+>(432/1132)the eggs,' said thePigeon; `but I must be on the look-out for serpents night andday!  Why, I haven't had a wink of sleep these
+136 chars
+>(433/1132)three weeks!'  `I'm very sorry you've been annoyed,' said Alice, who wasbeginning to see its meaning.  `And just as I'd taken the
+139 chars
+>(434/1132)highest tree in the wood,' continuedthe Pigeon, raising its voice to a shriek, `and just as I wasthinking I should be free of them
+140 chars
+>(435/1132)at last, they must needs comewriggling down from the sky!  Ugh, Serpent!'  `But I'm NOT a serpent, I tell you!' said Alice.  `I'm
+139 chars
+>(436/1132)a--I'ma--'  `Well!  WHAT are you?' said the Pigeon.  `I can see you'retrying to invent something!'  `I--I'm a little girl,' said
+138 chars
+>(437/1132)Alice, rather doubtfully, as sheremembered the number of changes she had gone through that day.  `A likely story indeed!' said the
+140 chars
+>(438/1132)Pigeon in a tone of thedeepest contempt.  `I've seen a good many little girls in mytime, but never ONE with such a neck as that! 
+139 chars
+>(439/1132)No, no!  You're aserpent; and there's no use denying it.  I suppose you'll betelling me next that you never tasted an egg!'  `I
+137 chars
+>(440/1132)HAVE tasted eggs, certainly,' said Alice, who was a verytruthful child; `but little girls eat eggs quite as much asserpents do,
+137 chars
+>(441/1132)you know.'  `I don't believe it,' said the Pigeon; `but if they do, whythen they're a kind of serpent, that's all I can say.' 
+136 chars
+>(442/1132)This was such a new idea to Alice, that she was quite silentfor a minute or two, which gave the Pigeon the opportunity ofadding,
+138 chars
+>(443/1132)`You're looking for eggs, I know THAT well enough; andwhat does it matter to me whether you're a little girl or aserpent?'  `It
+137 chars
+>(444/1132)matters a good deal to ME,' said Alice hastily; `but I'mnot looking for eggs, as it happens; and if I was, I shouldn'twant YOURS: 
+140 chars
+>(445/1132)I don't like them raw.'  `Well, be off, then!' said the Pigeon in a sulky tone, as itsettled down again into its nest.  Alice
+135 chars
+>(446/1132)crouched down among thetrees as well as she could, for her neck kept getting entangledamong the branches, and every now and then
+138 chars
+>(447/1132)she had to stop anduntwist it.  After a while she remembered that she still held thepieces of mushroom in her hands, and she set
+138 chars
+>(448/1132)to work verycarefully, nibbling first at one and then at the other, andgrowing sometimes taller and sometimes shorter, until she
+138 chars
+>(449/1132)hadsucceeded in bringing herself down to her usual height.  It was so long since she had been anything near the right size,that it
+140 chars
+>(450/1132)felt quite strange at first; but she got used to it in afew minutes, and began talking to herself, as usual.  `Come,there's half
+138 chars
+>(451/1132)my plan done now!  How puzzling all these changesare!  I'm never sure what I'm going to be, from one minute toanother!  However,
+138 chars
+>(452/1132)I've got back to my right size:  the nextthing is, to get into that beautiful garden--how IS that to bedone, I wonder?'  As she
+137 chars
+>(453/1132)said this, she came suddenly upon anopen place, with a little house in it about four feet high.`Whoever lives there,' thought
+135 chars
+>(454/1132)Alice, `it'll never do to comeupon them THIS size:  why, I should frighten them out of theirwits!'  So she began nibbling at the
+138 chars
+>(455/1132)righthand bit again, and didnot venture to go near the house till she had brought herselfdown to nine inches high.                
+140 chars
+>(456/1132)CHAPTER VI                         Pig and Pepper  For a minute or two she stood looking at the house, andwondering what to do
+136 chars
+>(457/1132)next, when suddenly a footman in livery camerunning out of the wood--(she considered him to be a footmanbecause he was in livery: 
+140 chars
+>(458/1132)otherwise, judging by his face only,she would have called him a fish)--and rapped loudly at the doorwith his knuckles.  It was
+136 chars
+>(459/1132)opened by another footman in livery,with a round face, and large eyes like a frog; and both footmen,Alice noticed, had powdered
+137 chars
+>(460/1132)hair that curled all over theirheads.  She felt very curious to know what it was all about, andcrept a little way out of the wood
+139 chars
+>(461/1132)to listen.  The Fish-Footman began by producing from under his arm a greatletter, nearly as large as himself, and this he handed
+138 chars
+>(462/1132)over tothe other, saying, in a solemn tone, `For the Duchess.  Aninvitation from the Queen to play croquet.'  The
+123 chars
+>(463/1132)Frog-Footmanrepeated, in the same solemn tone, only changing the order of thewords a little, `From the Queen.  An invitation for
+138 chars
+>(464/1132)the Duchessto play croquet.'  Then they both bowed low, and their curls got entangledtogether.  Alice laughed so much at this,
+136 chars
+>(465/1132)that she had to run back intothe wood for fear of their hearing her; and when she next peepedout the Fish-Footman was gone, and
+137 chars
+>(466/1132)the other was sitting on theground near the door, staring stupidly up into the sky.  Alice went timidly up to the door, and
+133 chars
+>(467/1132)knocked.  `There's no sort of use in knocking,' said the Footman, `andthat for two reasons.  First, because I'm on the same side
+138 chars
+>(468/1132)of thedoor as you are; secondly, because they're making such a noiseinside, no one could possibly hear you.'  And certainly there
+139 chars
+>(469/1132)wasa most extraordinary noise going on within--a constant howlingand sneezing, and every now and then a great crash, as if a
+134 chars
+>(470/1132)dishor kettle had been broken to pieces.  `Please, then,' said Alice, `how am I to get in?'  `There might be some sense in your
+137 chars
+>(471/1132)knocking,' the Footman wenton without attending to her, `if we had the door between us.  Forinstance, if you were INSIDE, you
+135 chars
+>(472/1132)might knock, and I could letyou out, you know.'  He was looking up into the sky all the timehe was speaking, and this Alice
+133 chars
+>(473/1132)thought decidedly uncivil.  `Butperhaps he can't help it,' she said to herself; `his eyes are soVERY nearly at the top of his
+135 chars
+>(474/1132)head.  But at any rate he mightanswer questions.--How am I to get in?' she repeated, aloud.  `I shall sit here,' the Footman
+134 chars
+>(475/1132)remarked, `till tomorrow--'  At this moment the door of the house opened, and a large platecame skimming out, straight at the
+135 chars
+>(476/1132)Footman's head:  it justgrazed his nose, and broke to pieces against one of the treesbehind him.  `--or next day, maybe,' the
+135 chars
+>(477/1132)Footman continued in the same tone,exactly as if nothing had happened.  `How am I to get in?' asked Alice again, in a louder tone.
+140 chars
+>(478/1132)`ARE you to get in at all?' said the Footman.  `That's thefirst question, you know.'  It was, no doubt:  only Alice did not like
+138 chars
+>(479/1132)to be told so.`It's really dreadful,' she muttered to herself, `the way all thecreatures argue.  It's enough to drive one crazy!' 
+140 chars
+>(480/1132)The Footman seemed to think this a good opportunity forrepeating his remark, with variations.  `I shall sit here,' hesaid, `on and
+140 chars
+>(481/1132)off, for days and days.'  `But what am I to do?' said Alice.  `Anything you like,' said the Footman, and began whistling.  `Oh,
+137 chars
+>(482/1132)there's no use in talking to him,' said Alice desperately:`he's perfectly idiotic!'  And she opened the door and went in.  The
+136 chars
+>(483/1132)door led right into a large kitchen, which was full ofsmoke from one end to the other:  the Duchess was sitting on athree-legged
+138 chars
+>(484/1132)stool in the middle, nursing a baby; the cook wasleaning over the fire, stirring a large cauldron which seemed tobe full of soup. 
+140 chars
+>(485/1132)`There's certainly too much pepper in that soup!' Alice said toherself, as well as she could for sneezing.  There was certainly
+137 chars
+>(486/1132)too much of it in the air.  Even theDuchess sneezed occasionally; and as for the baby, it wassneezing and howling alternately
+135 chars
+>(487/1132)without a moment's pause.  Theonly things in the kitchen that did not sneeze, were the cook,and a large cat which was sitting on
+138 chars
+>(488/1132)the hearth and grinning fromear to ear.  `Please would you tell me,' said Alice, a little timidly, forshe was not quite sure
+134 chars
+>(489/1132)whether it was good manners for her tospeak first, `why your cat grins like that?'  `It's a Cheshire cat,' said the Duchess, `and
+139 chars
+>(490/1132)that's why.  Pig!'  She said the last word with such sudden violence that Alicequite jumped; but she saw in another moment that it
+140 chars
+>(491/1132)was addressedto the baby, and not to her, so she took courage, and went onagain:--  `I didn't know that Cheshire cats always
+134 chars
+>(492/1132)grinned; in fact, Ididn't know that cats COULD grin.'  `They all can,' said the Duchess; `and most of 'em do.'  `I don't know of
+138 chars
+>(493/1132)any that do,' Alice said very politely,feeling quite pleased to have got into a conversation.  `You don't know much,' said the
+136 chars
+>(494/1132)Duchess; `and that's a fact.'  Alice did not at all like the tone of this remark, and thoughtit would be as well to introduce some
+140 chars
+>(495/1132)other subject ofconversation.  While she was trying to fix on one, the cook tookthe cauldron of soup off the fire, and at once set
+140 chars
+>(496/1132)to workthrowing everything within her reach at the Duchess and the baby--the fire-irons came first; then followed a shower of
+135 chars
+>(497/1132)saucepans,plates, and dishes.  The Duchess took no notice of them even whenthey hit her; and the baby was howling so much already,
+140 chars
+>(498/1132)that itwas quite impossible to say whether the blows hurt it or not.  `Oh, PLEASE mind what you're doing!' cried Alice, jumping
+137 chars
+>(499/1132)upand down in an agony of terror.  `Oh, there goes his PRECIOUSnose'; as an unusually large saucepan flew close by it, and
+132 chars
+>(500/1132)verynearly carried it off.  `If everybody minded their own business,' the Duchess said in ahoarse growl, `the world would go round
+140 chars
+>(501/1132)a deal faster than itdoes.'  `Which would NOT be an advantage,' said Alice, who felt veryglad to get an opportunity of showing off
+140 chars
+>(502/1132)a little of herknowledge.  `Just think of what work it would make with the dayand night!  You see the earth takes twenty-four
+135 chars
+>(503/1132)hours to turnround on its axis--'  `Talking of axes,' said the Duchess, `chop off her head!'  Alice glanced rather anxiously at
+137 chars
+>(504/1132)the cook, to see if she meantto take the hint; but the cook was busily stirring the soup, andseemed not to be listening, so she
+137 chars
+>(505/1132)went on again:  `Twenty-fourhours, I THINK; or is it twelve?  I--'  `Oh, don't bother ME,' said the Duchess; `I never could
+133 chars
+>(506/1132)abidefigures!'  And with that she began nursing her child again,singing a sort of lullaby to it as she did so, and giving it
+134 chars
+>(507/1132)aviolent shake at the end of every line:        `Speak roughly to your little boy,          And beat him when he sneezes:       
+138 chars
+>(508/1132)He only does it to annoy,          Because he knows it teases.'                    CHORUS.    (In which the cook and the baby
+135 chars
+>(509/1132)joined):--                `Wow! wow! wow!'  While the Duchess sang the second verse of the song, she kepttossing the baby
+131 chars
+>(510/1132)violently up and down, and the poor little thinghowled so, that Alice could hardly hear the words:--        `I speak severely to
+138 chars
+>(511/1132)my boy,          I beat him when he sneezes;        For he can thoroughly enjoy          The pepper when he pleases!'             
+140 chars
+>(512/1132)CHORUS.                `Wow! wow! wow!'  `Here! you may nurse it a bit, if you like!' the Duchess saidto Alice, flinging the baby
+139 chars
+>(513/1132)at her as she spoke.  `I must go andget ready to play croquet with the Queen,' and she hurried out ofthe room.  The cook threw a
+138 chars
+>(514/1132)frying-pan after her as she went out,but it just missed her.  Alice caught the baby with some difficulty, as it was a queer-shaped
+140 chars
+>(515/1132)little creature, and held out its arms and legs in alldirections, `just like a star-fish,' thought Alice.  The poorlittle thing
+137 chars
+>(516/1132)was snorting like a steam-engine when she caught it,and kept doubling itself up and straightening itself out again,so that
+132 chars
+>(517/1132)altogether, for the first minute or two, it was as muchas she could do to hold it.  As soon as she had made out the proper way of
+139 chars
+>(518/1132)nursing it,(which was to twist it up into a sort of knot, and then keeptight hold of its right ear and left foot, so as to prevent
+140 chars
+>(519/1132)itsundoing itself,) she carried it out into the open air.  `IF Idon't take this child away with me,' thought Alice, `they're
+134 chars
+>(520/1132)sureto kill it in a day or two:  wouldn't it be murder to leave itbehind?'  She said the last words out loud, and the little
+134 chars
+>(521/1132)thinggrunted in reply (it had left off sneezing by this time).  `Don'tgrunt,' said Alice; `that's not at all a proper way of
+134 chars
+>(522/1132)expressingyourself.'  The baby grunted again, and Alice looked very anxiously intoits face to see what was the matter with it. 
+137 chars
+>(523/1132)There could be nodoubt that it had a VERY turn-up nose, much more like a snoutthan a real nose; also its eyes were getting
+132 chars
+>(524/1132)extremely small fora baby:  altogether Alice did not like the look of the thing atall.  `But perhaps it was only sobbing,' she
+136 chars
+>(525/1132)thought, and lookedinto its eyes again, to see if there were any tears.  No, there were no tears.  `If you're going to turn into a
+140 chars
+>(526/1132)pig,my dear,' said Alice, seriously, `I'll have nothing more to dowith you.  Mind now!'  The poor little thing sobbed again
+133 chars
+>(527/1132)(orgrunted, it was impossible to say which), and they went on forsome while in silence.  Alice was just beginning to think to
+135 chars
+>(528/1132)herself, `Now, what am Ito do with this creature when I get it home?' when it gruntedagain, so violently, that she looked down
+136 chars
+>(529/1132)into its face in somealarm.  This time there could be NO mistake about it:  it wasneither more nor less than a pig, and she felt
+138 chars
+>(530/1132)that it would bequite absurd for her to carry it further.  So she set the little creature down, and felt quite relieved tosee it
+138 chars
+>(531/1132)trot away quietly into the wood.  `If it had grown up,'she said to herself, `it would have made a dreadfully ugly child:but it
+136 chars
+>(532/1132)makes rather a handsome pig, I think.'  And she beganthinking over other children she knew, who might do very well aspigs, and was
+140 chars
+>(533/1132)just saying to herself, `if one only knew the rightway to change them--' when she was a little startled by seeingthe Cheshire Cat
+139 chars
+>(534/1132)sitting on a bough of a tree a few yards off.  The Cat only grinned when it saw Alice.  It looked good-natured, she thought: 
+135 chars
+>(535/1132)still it had VERY long claws and a greatmany teeth, so she felt that it ought to be treated with respect.  `Cheshire Puss,' she
+137 chars
+>(536/1132)began, rather timidly, as she did not atall know whether it would like the name:  however, it onlygrinned a little wider.  `Come,
+139 chars
+>(537/1132)it's pleased so far,' thoughtAlice, and she went on.  `Would you tell me, please, which way Iought to go from here?'  `That
+133 chars
+>(538/1132)depends a good deal on where you want to get to,' saidthe Cat.  `I don't much care where--' said Alice.  `Then it doesn't matter
+138 chars
+>(539/1132)which way you go,' said the Cat.  `--so long as I get SOMEWHERE,' Alice added as an explanation.  `Oh, you're sure to do that,'
+137 chars
+>(540/1132)said the Cat, `if you only walklong enough.'  Alice felt that this could not be denied, so she tried anotherquestion.  `What sort
+139 chars
+>(541/1132)of people live about here?'  `In THAT direction,' the Cat said, waving its right paw round,`lives a Hatter:  and in THAT
+130 chars
+>(542/1132)direction,' waving the other paw,`lives a March Hare.  Visit either you like:  they're both mad.'  `But I don't want to go among
+138 chars
+>(543/1132)mad people,' Alice remarked.  `Oh, you can't help that,' said the Cat:  `we're all mad here.I'm mad.  You're mad.'  `How do you
+137 chars
+>(544/1132)know I'm mad?' said Alice.  `You must be,' said the Cat, `or you wouldn't have come here.'  Alice didn't think that proved it at
+138 chars
+>(545/1132)all; however, she went on`And how do you know that you're mad?'  `To begin with,' said the Cat, `a dog's not mad.  You grantthat?'
+140 chars
+>(546/1132)`I suppose so,' said Alice.  `Well, then,' the Cat went on, `you see, a dog growls when it'sangry, and wags its tail when it's
+136 chars
+>(547/1132)pleased.  Now I growl when I'mpleased, and wag my tail when I'm angry.  Therefore I'm mad.'  `I call it purring, not growling,'
+137 chars
+>(548/1132)said Alice.  `Call it what you like,' said the Cat.  `Do you play croquetwith the Queen to-day?'  `I should like it very much,'
+137 chars
+>(549/1132)said Alice, `but I haven't beeninvited yet.'  `You'll see me there,' said the Cat, and vanished.  Alice was not much surprised at
+139 chars
+>(550/1132)this, she was getting so usedto queer things happening.  While she was looking at the placewhere it had been, it suddenly appeared
+140 chars
+>(551/1132)again.  `By-the-bye, what became of the baby?' said the Cat.  `I'dnearly forgotten to ask.'  `It turned into a pig,' Alice quietly
+140 chars
+>(552/1132)said, just as if it hadcome back in a natural way.  `I thought it would,' said the Cat, and vanished again.  Alice waited a
+133 chars
+>(553/1132)little, half expecting to see it again, but itdid not appear, and after a minute or two she walked on in thedirection in which the
+140 chars
+>(554/1132)March Hare was said to live.  `I've seenhatters before,' she said to herself; `the March Hare will bemuch the most interesting,
+137 chars
+>(555/1132)and perhaps as this is May it won't beraving mad--at least not so mad as it was in March.'  As she saidthis, she looked up, and
+137 chars
+>(556/1132)there was the Cat again, sitting on abranch of a tree.  `Did you say pig, or fig?' said the Cat.  `I said pig,' replied Alice;
+136 chars
+>(557/1132)`and I wish you wouldn't keepappearing and vanishing so suddenly:  you make one quite giddy.'  `All right,' said the Cat; and this
+140 chars
+>(558/1132)time it vanished quite slowly,beginning with the end of the tail, and ending with the grin,which remained some time after the rest
+140 chars
+>(559/1132)of it had gone.  `Well!  I've often seen a cat without a grin,' thought Alice;`but a grin without a cat!  It's the most curious
+137 chars
+>(560/1132)thing I eversaw in my life!'  She had not gone much farther before she came in sight of thehouse of the March Hare:  she thought
+138 chars
+>(561/1132)it must be the right house,because the chimneys were shaped like ears and the roof wasthatched with fur.  It was so large a house,
+140 chars
+>(562/1132)that she did notlike to go nearer till she had nibbled some more of the lefthandbit of mushroom, and raised herself to about two
+138 chars
+>(563/1132)feet high:  eventhen she walked up towards it rather timidly, saying to herself`Suppose it should be raving mad after all!  I
+135 chars
+>(564/1132)almost wish I'dgone to see the Hatter instead!'                           CHAPTER VII                         A Mad Tea-Party 
+136 chars
+>(565/1132)There was a table set out under a tree in front of the house,and the March Hare and the Hatter were having tea at it:  aDormouse
+138 chars
+>(566/1132)was sitting between them, fast asleep, and the other twowere using it as a cushion, resting their elbows on it, and talkingover
+137 chars
+>(567/1132)its head.  `Very uncomfortable for the Dormouse,' thought Alice;`only, as it's asleep, I suppose it doesn't mind.'  The table was
+139 chars
+>(568/1132)a large one, but the three were all crowdedtogether at one corner of it:  `No room!  No room!' they criedout when they saw Alice
+138 chars
+>(569/1132)coming.  `There's PLENTY of room!' saidAlice indignantly, and she sat down in a large arm-chair at oneend of the table.  `Have
+136 chars
+>(570/1132)some wine,' the March Hare said in an encouraging tone.  Alice looked all round the table, but there was nothing on itbut tea.  `I
+140 chars
+>(571/1132)don't see any wine,' she remarked.  `There isn't any,' said the March Hare.  `Then it wasn't very civil of you to offer it,' said
+139 chars
+>(572/1132)Aliceangrily.  `It wasn't very civil of you to sit down without beinginvited,' said the March Hare.  `I didn't know it was YOUR
+137 chars
+>(573/1132)table,' said Alice; `it's laid for agreat many more than three.'  `Your hair wants cutting,' said the Hatter.  He had beenlooking
+139 chars
+>(574/1132)at Alice for some time with great curiosity, and this washis first speech.  `You should learn not to make personal remarks,' Alice
+140 chars
+>(575/1132)saidwith some severity; `it's very rude.'  The Hatter opened his eyes very wide on hearing this; but allhe SAID was, `Why is a
+136 chars
+>(576/1132)raven like a writing-desk?'  `Come, we shall have some fun now!' thought Alice.  `I'm gladthey've begun asking riddles.--I believe
+140 chars
+>(577/1132)I can guess that,' sheadded aloud.  `Do you mean that you think you can find out the answer to it?'said the March Hare.  `Exactly
+139 chars
+>(578/1132)so,' said Alice.  `Then you should say what you mean,' the March Hare went on.  `I do,' Alice hastily replied; `at least--at least
+140 chars
+>(579/1132)I mean whatI say--that's the same thing, you know.'  `Not the same thing a bit!' said the Hatter.  `You might justas well say that
+140 chars
+>(580/1132)"I see what I eat" is the same thing as "I eatwhat I see"!'  `You might just as well say,' added the March Hare, `that "Ilike what
+140 chars
+>(581/1132)I get" is the same thing as "I get what I like"!'  `You might just as well say,' added the Dormouse, who seemed tobe talking in
+137 chars
+>(582/1132)his sleep, `that "I breathe when I sleep" is thesame thing as "I sleep when I breathe"!'  `It IS the same thing with you,' said
+137 chars
+>(583/1132)the Hatter, and here theconversation dropped, and the party sat silent for a minute,while Alice thought over all she could
+132 chars
+>(584/1132)remember about ravens andwriting-desks, which wasn't much.  The Hatter was the first to break the silence.  `What day ofthe month
+139 chars
+>(585/1132)is it?' he said, turning to Alice:  he had taken hiswatch out of his pocket, and was looking at it uneasily, shakingit every now
+138 chars
+>(586/1132)and then, and holding it to his ear.  Alice considered a little, and then said `The fourth.'  `Two days wrong!' sighed the Hatter.
+140 chars
+>(587/1132)`I told you butterwouldn't suit the works!' he added looking angrily at the MarchHare.  `It was the BEST butter,' the March Hare
+138 chars
+>(588/1132)meekly replied.  `Yes, but some crumbs must have got in as well,' the Hattergrumbled:  `you shouldn't have put it in with the
+135 chars
+>(589/1132)bread-knife.'  The March Hare took the watch and looked at it gloomily:  thenhe dipped it into his cup of tea, and looked at it
+137 chars
+>(590/1132)again:  but hecould think of nothing better to say than his first remark, `Itwas the BEST butter, you know.'  Alice had been
+134 chars
+>(591/1132)looking over his shoulder with some curiosity.`What a funny watch!' she remarked.  `It tells the day of themonth, and doesn't tell
+140 chars
+>(592/1132)what o'clock it is!'  `Why should it?' muttered the Hatter.  `Does YOUR watch tellyou what year it is?'  `Of course not,' Alice
+137 chars
+>(593/1132)replied very readily:  `but that'sbecause it stays the same year for such a long time together.'  `Which is just the case with
+136 chars
+>(594/1132)MINE,' said the Hatter.  Alice felt dreadfully puzzled.  The Hatter's remark seemed tohave no sort of meaning in it, and yet it
+137 chars
+>(595/1132)was certainly English.`I don't quite understand you,' she said, as politely as shecould.  `The Dormouse is asleep again,' said the
+140 chars
+>(596/1132)Hatter, and he poureda little hot tea upon its nose.  The Dormouse shook its head impatiently, and said, withoutopening its eyes,
+139 chars
+>(597/1132)`Of course, of course; just what I was going toremark myself.'  `Have you guessed the riddle yet?' the Hatter said, turning
+133 chars
+>(598/1132)toAlice again.  `No, I give it up,' Alice replied:  `what's the answer?'  `I haven't the slightest idea,' said the Hatter.  `Nor
+138 chars
+>(599/1132)I,' said the March Hare.  Alice sighed wearily.  `I think you might do something betterwith the time,' she said, `than waste it in
+140 chars
+>(600/1132)asking riddles thathave no answers.'  `If you knew Time as well as I do,' said the Hatter, `youwouldn't talk about wasting IT. 
+137 chars
+>(601/1132)It's HIM.'  `I don't know what you mean,' said Alice.  `Of course you don't!' the Hatter said, tossing his headcontemptuously.  `I
+140 chars
+>(602/1132)dare say you never even spoke to Time!'  `Perhaps not,' Alice cautiously replied:  `but I know I have tobeat time when I learn
+136 chars
+>(603/1132)music.'  `Ah! that accounts for it,' said the Hatter.  `He won't standbeating.  Now, if you only kept on good terms with him, he'd
+140 chars
+>(604/1132)doalmost anything you liked with the clock.  For instance, supposeit were nine o'clock in the morning, just time to begin
+131 chars
+>(605/1132)lessons:you'd only have to whisper a hint to Time, and round goes theclock in a twinkling!  Half-past one, time for dinner!'  (`I
+139 chars
+>(606/1132)only wish it was,' the March Hare said to itself in awhisper.)  `That would be grand, certainly,' said Alice thoughtfully:`but
+136 chars
+>(607/1132)then--I shouldn't be hungry for it, you know.'  `Not at first, perhaps,' said the Hatter:  `but you could keepit to half-past one
+139 chars
+>(608/1132)as long as you liked.'  `Is that the way YOU manage?' Alice asked.  The Hatter shook his head mournfully.  `Not I!' he replied.`We
+140 chars
+>(609/1132)quarrelled last March--just before HE went mad, you know--'(pointing with his tea spoon at the March Hare,) `--it was at thegreat
+139 chars
+>(610/1132)concert given by the Queen of Hearts, and I had to sing            "Twinkle, twinkle, little bat!            How I wonder what
+136 chars
+>(611/1132)you're at!"You know the song, perhaps?'  `I've heard something like it,' said Alice.  `It goes on, you know,' the Hatter
+130 chars
+>(612/1132)continued, `in this way:--            "Up above the world you fly,            Like a tea-tray in the sky.                   
+134 chars
+>(613/1132)Twinkle, twinkle--"'Here the Dormouse shook itself, and began singing in its sleep`Twinkle, twinkle, twinkle, twinkle--' and went
+139 chars
+>(614/1132)on so long thatthey had to pinch it to make it stop.  `Well, I'd hardly finished the first verse,' said the Hatter,`when the Queen
+140 chars
+>(615/1132)jumped up and bawled out, "He's murdering thetime!  Off with his head!"'  `How dreadfully savage!' exclaimed Alice.  `And ever
+136 chars
+>(616/1132)since that,' the Hatter went on in a mournful tone,`he won't do a thing I ask!  It's always six o'clock now.'  A bright idea came
+139 chars
+>(617/1132)into Alice's head.  `Is that the reason somany tea-things are put out here?' she asked.  `Yes, that's it,' said the Hatter with a
+139 chars
+>(618/1132)sigh:  `it's alwaystea-time, and we've no time to wash the things between whiles.'  `Then you keep moving round, I suppose?' said
+139 chars
+>(619/1132)Alice.  `Exactly so,' said the Hatter:  `as the things get used up.'  `But what happens when you come to the beginning again?'
+136 chars
+>(620/1132)Aliceventured to ask.  `Suppose we change the subject,' the March Hare interrupted,yawning.  `I'm getting tired of this.  I vote
+138 chars
+>(621/1132)the young ladytells us a story.'  `I'm afraid I don't know one,' said Alice, rather alarmed atthe proposal.  `Then the Dormouse
+137 chars
+>(622/1132)shall!' they both cried.  `Wake up,Dormouse!'  And they pinched it on both sides at once.  The Dormouse slowly opened his eyes. 
+138 chars
+>(623/1132)`I wasn't asleep,' hesaid in a hoarse, feeble voice:  `I heard every word you fellowswere saying.'  `Tell us a story!' said the
+137 chars
+>(624/1132)March Hare.  `Yes, please do!' pleaded Alice.  `And be quick about it,' added the Hatter, `or you'll be asleepagain before it's
+137 chars
+>(625/1132)done.'  `Once upon a time there were three little sisters,' theDormouse began in a great hurry; `and their names were Elsie,Lacie,
+140 chars
+>(626/1132)and Tillie; and they lived at the bottom of a well--'  `What did they live on?' said Alice, who always took a greatinterest in
+136 chars
+>(627/1132)questions of eating and drinking.  `They lived on treacle,' said the Dormouse, after thinking aminute or two.  `They couldn't have
+140 chars
+>(628/1132)done that, you know,' Alice gentlyremarked; `they'd have been ill.'  `So they were,' said the Dormouse; `VERY ill.'  Alice tried
+138 chars
+>(629/1132)to fancy to herself what such an extraordinary waysof living would be like, but it puzzled her too much, so she wenton:  `But why
+139 chars
+>(630/1132)did they live at the bottom of a well?'  `Take some more tea,' the March Hare said to Alice, veryearnestly.  `I've had nothing
+136 chars
+>(631/1132)yet,' Alice replied in an offended tone, `soI can't take more.'  `You mean you can't take LESS,' said the Hatter:  `it's veryeasy
+139 chars
+>(632/1132)to take MORE than nothing.'  `Nobody asked YOUR opinion,' said Alice.  `Who's making personal remarks now?' the Hatter
+128 chars
+>(633/1132)askedtriumphantly.  Alice did not quite know what to say to this:  so she helpedherself to some tea and bread-and-butter, and then
+140 chars
+>(634/1132)turned to theDormouse, and repeated her question.  `Why did they live at thebottom of a well?'  The Dormouse again took a minute
+138 chars
+>(635/1132)or two to think about it, andthen said, `It was a treacle-well.'  `There's no such thing!'  Alice was beginning very angrily,
+135 chars
+>(636/1132)butthe Hatter and the March Hare went `Sh! sh!' and the Dormousesulkily remarked, `If you can't be civil, you'd better finish
+135 chars
+>(637/1132)thestory for yourself.'  `No, please go on!' Alice said very humbly; `I won't interruptagain.  I dare say there may be ONE.' 
+135 chars
+>(638/1132)`One, indeed!' said the Dormouse indignantly.  However, heconsented to go on.  `And so these three little sisters--theywere
+133 chars
+>(639/1132)learning to draw, you know--'  `What did they draw?' said Alice, quite forgetting her promise.  `Treacle,' said the Dormouse,
+135 chars
+>(640/1132)without considering at all thistime.  `I want a clean cup,' interrupted the Hatter:  `let's all moveone place on.'  He moved on as
+140 chars
+>(641/1132)he spoke, and the Dormouse followed him:  theMarch Hare moved into the Dormouse's place, and Alice ratherunwillingly took the
+135 chars
+>(642/1132)place of the March Hare.  The Hatter was theonly one who got any advantage from the change:  and Alice was agood deal worse off
+137 chars
+>(643/1132)than before, as the March Hare had just upsetthe milk-jug into his plate.  Alice did not wish to offend the Dormouse again, so she
+140 chars
+>(644/1132)beganvery cautiously:  `But I don't understand.  Where did they drawthe treacle from?'  `You can draw water out of a water-well,'
+139 chars
+>(645/1132)said the Hatter; `soI should think you could draw treacle out of a treacle-well--eh,stupid?'  `But they were IN the well,' Alice
+138 chars
+>(646/1132)said to the Dormouse, notchoosing to notice this last remark.  `Of course they were', said the Dormouse; `--well in.'  This answer
+140 chars
+>(647/1132)so confused poor Alice, that she let the Dormousego on for some time without interrupting it.  `They were learning to draw,' the
+138 chars
+>(648/1132)Dormouse went on, yawning andrubbing its eyes, for it was getting very sleepy; `and they drewall manner of things--everything that
+140 chars
+>(649/1132)begins with an M--'  `Why with an M?' said Alice.  `Why not?' said the March Hare.  Alice was silent.  The Dormouse had closed its
+140 chars
+>(650/1132)eyes by this time, and was goingoff into a doze; but, on being pinched by the Hatter, it woke upagain with a little shriek, and
+137 chars
+>(651/1132)went on:  `--that begins with anM, such as mouse-traps, and the moon, and memory, and muchness--you know you say things are "much
+139 chars
+>(652/1132)of a muchness"--did you eversee such a thing as a drawing of a muchness?'  `Really, now you ask me,' said Alice, very much
+132 chars
+>(653/1132)confused, `Idon't think--'  `Then you shouldn't talk,' said the Hatter.  This piece of rudeness was more than Alice could bear: 
+138 chars
+>(654/1132)she gotup in great disgust, and walked off; the Dormouse fell asleepinstantly, and neither of the others took the least notice of
+139 chars
+>(655/1132)hergoing, though she looked back once or twice, half hoping thatthey would call after her:  the last time she saw them, they
+134 chars
+>(656/1132)weretrying to put the Dormouse into the teapot.  `At any rate I'll never go THERE again!' said Alice as shepicked her way through
+139 chars
+>(657/1132)the wood.  `It's the stupidest tea-party Iever was at in all my life!'  Just as she said this, she noticed that one of the trees
+138 chars
+>(658/1132)had adoor leading right into it.  `That's very curious!' she thought.`But everything's curious today.  I think I may as well go in
+140 chars
+>(659/1132)at once.'And in she went.  Once more she found herself in the long hall, and close to thelittle glass table.  `Now, I'll manage
+137 chars
+>(660/1132)better this time,'she said to herself, and began by taking the little golden key,and unlocking the door that led into the garden. 
+140 chars
+>(661/1132)Then she wentto work nibbling at the mushroom (she had kept a piece of itin her pocket) till she was about a foot high:  then she
+139 chars
+>(662/1132)walked downthe little passage:  and THEN--she found herself at last in thebeautiful garden, among the bright flower-beds and the
+138 chars
+>(663/1132)cool fountains.                          CHAPTER VIII                   The Queen's Croquet-Ground  A large rose-tree stood near
+138 chars
+>(664/1132)the entrance of the garden:  theroses growing on it were white, but there were three gardeners atit, busily painting them red. 
+137 chars
+>(665/1132)Alice thought this a very curiousthing, and she went nearer to watch them, and just as she came upto them she heard one of them
+137 chars
+>(666/1132)say, `Look out now, Five!  Don't gosplashing paint over me like that!'  `I couldn't help it,' said Five, in a sulky tone; `Seven
+138 chars
+>(667/1132)joggedmy elbow.'  On which Seven looked up and said, `That's right, Five!  Alwayslay the blame on others!'  `YOU'D better not
+135 chars
+>(668/1132)talk!' said Five.  `I heard the Queen say onlyyesterday you deserved to be beheaded!'  `What for?' said the one who had spoken
+136 chars
+>(669/1132)first.  `That's none of YOUR business, Two!' said Seven.  `Yes, it IS his business!' said Five, `and I'll tell him--itwas for
+135 chars
+>(670/1132)bringing the cook tulip-roots instead of onions.'  Seven flung down his brush, and had just begun `Well, of allthe unjust
+131 chars
+>(671/1132)things--' when his eye chanced to fall upon Alice, asshe stood watching them, and he checked himself suddenly:  theothers looked
+138 chars
+>(672/1132)round also, and all of them bowed low.  `Would you tell me,' said Alice, a little timidly, `why you arepainting those roses?' 
+136 chars
+>(673/1132)Five and Seven said nothing, but looked at Two.  Two began in alow voice, `Why the fact is, you see, Miss, this here ought tohave
+139 chars
+>(674/1132)been a RED rose-tree, and we put a white one in by mistake;and if the Queen was to find it out, we should all have our headscut
+137 chars
+>(675/1132)off, you know.  So you see, Miss, we're doing our best, aforeshe comes, to--'  At this moment Five, who had been anxiouslylooking
+139 chars
+>(676/1132)across the garden, called out `The Queen!  The Queen!'and the three gardeners instantly threw themselves flat upontheir faces. 
+137 chars
+>(677/1132)There was a sound of many footsteps, and Alicelooked round, eager to see the Queen.  First came ten soldiers carrying clubs; these
+140 chars
+>(678/1132)were all shapedlike the three gardeners, oblong and flat, with their hands andfeet at the corners:  next the ten courtiers; these
+139 chars
+>(679/1132)wereornamented all over with diamonds, and walked two and two, as thesoldiers did.  After these came the royal children; there
+136 chars
+>(680/1132)wereten of them, and the little dears came jumping merrily along handin hand, in couples:  they were all ornamented with hearts. 
+139 chars
+>(681/1132)Nextcame the guests, mostly Kings and Queens, and among them Alicerecognised the White Rabbit:  it was talking in a hurried
+133 chars
+>(682/1132)nervousmanner, smiling at everything that was said, and went by withoutnoticing her.  Then followed the Knave of Hearts, carrying
+139 chars
+>(683/1132)theKing's crown on a crimson velvet cushion; and, last of all thisgrand procession, came THE KING AND QUEEN OF HEARTS.  Alice was
+139 chars
+>(684/1132)rather doubtful whether she ought not to lie down onher face like the three gardeners, but she could not rememberever having heard
+140 chars
+>(685/1132)of such a rule at processions; `and besides,what would be the use of a procession,' thought she, `if peoplehad all to lie down
+136 chars
+>(686/1132)upon their faces, so that they couldn't see it?'So she stood still where she was, and waited.  When the procession came opposite
+138 chars
+>(687/1132)to Alice, they all stoppedand looked at her, and the Queen said severely `Who is this?'She said it to the Knave of Hearts, who
+136 chars
+>(688/1132)only bowed and smiled in reply.  `Idiot!' said the Queen, tossing her head impatiently; and,turning to Alice, she went on, `What's
+140 chars
+>(689/1132)your name, child?'  `My name is Alice, so please your Majesty,' said Alice verypolitely; but she added, to herself, `Why, they're
+139 chars
+>(690/1132)only a pack ofcards, after all.  I needn't be afraid of them!'  `And who are THESE?' said the Queen, pointing to the
+126 chars
+>(691/1132)threegardeners who were lying round the rosetree; for, you see, asthey were lying on their faces, and the pattern on their
+132 chars
+>(692/1132)backswas the same as the rest of the pack, she could not tell whetherthey were gardeners, or soldiers, or courtiers, or three of
+138 chars
+>(693/1132)herown children.  `How should I know?' said Alice, surprised at her own courage.`It's no business of MINE.'  The Queen turned
+135 chars
+>(694/1132)crimson with fury, and, after glaring at herfor a moment like a wild beast, screamed `Off with her head!Off--'  `Nonsense!' said
+138 chars
+>(695/1132)Alice, very loudly and decidedly, and theQueen was silent.  The King laid his hand upon her arm, and timidly said`Consider, my
+136 chars
+>(696/1132)dear:  she is only a child!'  The Queen turned angrily away from him, and said to the Knave`Turn them over!'  The Knave did so,
+137 chars
+>(697/1132)very carefully, with one foot.  `Get up!' said the Queen, in a shrill, loud voice, and thethree gardeners instantly jumped up, and
+140 chars
+>(698/1132)began bowing to theKing, the Queen, the royal children, and everybody else.  `Leave off that!' screamed the Queen.  `You make me
+138 chars
+>(699/1132)giddy.'And then, turning to the rose-tree, she went on, `What HAVE youbeen doing here?'  `May it please your Majesty,' said Two,
+138 chars
+>(700/1132)in a very humble tone,going down on one knee as he spoke, `we were trying--'  `I see!' said the Queen, who had meanwhile been
+135 chars
+>(701/1132)examining theroses.  `Off with their heads!' and the procession moved on,three of the soldiers remaining behind to execute the
+136 chars
+>(702/1132)unfortunategardeners, who ran to Alice for protection.  `You shan't be beheaded!' said Alice, and she put them into alarge
+132 chars
+>(703/1132)flower-pot that stood near.  The three soldiers wanderedabout for a minute or two, looking for them, and then quietlymarched off
+138 chars
+>(704/1132)after the others.  `Are their heads off?' shouted the Queen.  `Their heads are gone, if it please your Majesty!' the
+126 chars
+>(705/1132)soldiersshouted in reply.  `That's right!' shouted the Queen.  `Can you play croquet?'  The soldiers were silent, and looked at
+137 chars
+>(706/1132)Alice, as the questionwas evidently meant for her.  `Yes!' shouted Alice.  `Come on, then!' roared the Queen, and Alice joined
+136 chars
+>(707/1132)theprocession, wondering very much what would happen next.  `It's--it's a very fine day!' said a timid voice at her side.She was
+138 chars
+>(708/1132)walking by the White Rabbit, who was peeping anxiouslyinto her face.  `Very,' said Alice:  `--where's the Duchess?'  `Hush! 
+134 chars
+>(709/1132)Hush!' said the Rabbit in a low, hurried tone.  Helooked anxiously over his shoulder as he spoke, and then raisedhimself upon
+135 chars
+>(710/1132)tiptoe, put his mouth close to her ear, andwhispered `She's under sentence of execution.'  `What for?' said Alice.  `Did you say
+138 chars
+>(711/1132)"What a pity!"?' the Rabbit asked.  `No, I didn't,' said Alice:  `I don't think it's at all a pity.I said "What for?"'  `She boxed
+140 chars
+>(712/1132)the Queen's ears--' the Rabbit began.  Alice gave alittle scream of laughter.  `Oh, hush!' the Rabbit whispered in afrightened
+136 chars
+>(713/1132)tone.  `The Queen will hear you!  You see, she camerather late, and the Queen said--'  `Get to your places!' shouted the Queen in
+139 chars
+>(714/1132)a voice of thunder,and people began running about in all directions, tumbling upagainst each other; however, they got settled down
+140 chars
+>(715/1132)in a minute ortwo, and the game began.  Alice thought she had never seen such acurious croquet-ground in her life; it was all
+135 chars
+>(716/1132)ridges andfurrows; the balls were live hedgehogs, the mallets liveflamingoes, and the soldiers had to double themselves up and
+136 chars
+>(717/1132)tostand on their hands and feet, to make the arches.  The chief difficulty Alice found at first was in managing herflamingo:  she
+139 chars
+>(718/1132)succeeded in getting its body tucked away,comfortably enough, under her arm, with its legs hanging down,but generally, just as she
+140 chars
+>(719/1132)had got its neck nicely straightenedout, and was going to give the hedgehog a blow with its head, itWOULD twist itself round and
+138 chars
+>(720/1132)look up in her face, with such apuzzled expression that she could not help bursting out laughing:and when she had got its head
+136 chars
+>(721/1132)down, and was going to begin again,it was very provoking to find that the hedgehog had unrolleditself, and was in the act of
+134 chars
+>(722/1132)crawling away:  besides all this,there was generally a ridge or furrow in the way wherever shewanted to send the hedgehog to, and,
+140 chars
+>(723/1132)as the doubled-up soldierswere always getting up and walking off to other parts of theground, Alice soon came to the conclusion
+137 chars
+>(724/1132)that it was a verydifficult game indeed.  The players all played at once without waiting for turns,quarrelling all the while, and
+139 chars
+>(725/1132)fighting for the hedgehogs; and ina very short time the Queen was in a furious passion, and wentstamping about, and shouting `Off
+139 chars
+>(726/1132)with his head!' or `Off withher head!' about once in a minute.  Alice began to feel very uneasy:  to be sure, she had not asyet
+137 chars
+>(727/1132)had any dispute with the Queen, but she knew that it mighthappen any minute, `and then,' thought she, `what would become ofme? 
+137 chars
+>(728/1132)They're dreadfully fond of beheading people here; the greatwonder is, that there's any one left alive!'  She was looking about for
+140 chars
+>(729/1132)some way of escape, and wonderingwhether she could get away without being seen, when she noticed acurious appearance in the air: 
+139 chars
+>(730/1132)it puzzled her very much atfirst, but, after watching it a minute or two, she made it out tobe a grin, and she said to herself
+136 chars
+>(731/1132)`It's the Cheshire Cat:  now Ishall have somebody to talk to.'  `How are you getting on?' said the Cat, as soon as there wasmouth
+139 chars
+>(732/1132)enough for it to speak with.  Alice waited till the eyes appeared, and then nodded.  `It's nouse speaking to it,' she thought,
+136 chars
+>(733/1132)`till its ears have come, or atleast one of them.'  In another minute the whole head appeared,and then Alice put down her
+131 chars
+>(734/1132)flamingo, and began an account of thegame, feeling very glad she had someone to listen to her.  TheCat seemed to think that there
+139 chars
+>(735/1132)was enough of it now in sight, andno more of it appeared.  `I don't think they play at all fairly,' Alice began, in rathera
+133 chars
+>(736/1132)complaining tone, `and they all quarrel so dreadfully one can'thear oneself speak--and they don't seem to have any rules
+130 chars
+>(737/1132)inparticular; at least, if there are, nobody attends to them--andyou've no idea how confusing it is all the things being alive;for
+140 chars
+>(738/1132)instance, there's the arch I've got to go through nextwalking about at the other end of the ground--and I should havecroqueted the
+140 chars
+>(739/1132)Queen's hedgehog just now, only it ran away when itsaw mine coming!'  `How do you like the Queen?' said the Cat in a low voice. 
+138 chars
+>(740/1132)`Not at all,' said Alice:  `she's so extremely--'  Just thenshe noticed that the Queen was close behind her, listening:  soshe
+136 chars
+>(741/1132)went on, `--likely to win, that it's hardly worth whilefinishing the game.'  The Queen smiled and passed on.  `Who ARE you talking
+140 chars
+>(742/1132)to?' said the King, going up to Alice, andlooking at the Cat's head with great curiosity.  `It's a friend of mine--a Cheshire
+135 chars
+>(743/1132)Cat,' said Alice:  `allow meto introduce it.'  `I don't like the look of it at all,' said the King:`however, it may kiss my hand
+138 chars
+>(744/1132)if it likes.'  `I'd rather not,' the Cat remarked.  `Don't be impertinent,' said the King, `and don't look at melike that!'  He
+137 chars
+>(745/1132)got behind Alice as he spoke.  `A cat may look at a king,' said Alice.  `I've read that insome book, but I don't remember where.' 
+140 chars
+>(746/1132)`Well, it must be removed,' said the King very decidedly, andhe called the Queen, who was passing at the moment, `My dear!  Iwish
+139 chars
+>(747/1132)you would have this cat removed!'  The Queen had only one way of settling all difficulties, greator small.  `Off with his head!'
+138 chars
+>(748/1132)she said, without even lookinground.  `I'll fetch the executioner myself,' said the King eagerly, andhe hurried off.  Alice
+133 chars
+>(749/1132)thought she might as well go back, and see how the gamewas going on, as she heard the Queen's voice in the distance,screaming with
+140 chars
+>(750/1132)passion.  She had already heard her sentence threeof the players to be executed for having missed their turns, andshe did not like
+140 chars
+>(751/1132)the look of things at all, as the game was insuch confusion that she never knew whether it was her turn ornot.  So she went in
+136 chars
+>(752/1132)search of her hedgehog.  The hedgehog was engaged in a fight with another hedgehog,which seemed to Alice an excellent opportunity
+139 chars
+>(753/1132)for croqueting oneof them with the other:  the only difficulty was, that herflamingo was gone across to the other side of the
+135 chars
+>(754/1132)garden, whereAlice could see it trying in a helpless sort of way to fly upinto a tree.  By the time she had caught the flamingo
+137 chars
+>(755/1132)and brought it back,the fight was over, and both the hedgehogs were out of sight:`but it doesn't matter much,' thought Alice, `as
+139 chars
+>(756/1132)all the archesare gone from this side of the ground.'  So she tucked it awayunder her arm, that it might not escape again, and
+136 chars
+>(757/1132)went back fora little more conversation with her friend.  When she got back to the Cheshire Cat, she was surprised tofind quite a
+139 chars
+>(758/1132)large crowd collected round it:  there was a disputegoing on between the executioner, the King, and the Queen, whowere all talking
+140 chars
+>(759/1132)at once, while all the rest were quite silent,and looked very uncomfortable.  The moment Alice appeared, she was appealed to by
+137 chars
+>(760/1132)all three tosettle the question, and they repeated their arguments to her,though, as they all spoke at once, she found it very
+136 chars
+>(761/1132)hard indeedto make out exactly what they said.  The executioner's argument was, that you couldn't cut off ahead unless there was a
+140 chars
+>(762/1132)body to cut it off from:  that he hadnever had to do such a thing before, and he wasn't going to beginat HIS time of life.  The
+137 chars
+>(763/1132)King's argument was, that anything that had a head could bebeheaded, and that you weren't to talk nonsense.  The Queen's argument
+139 chars
+>(764/1132)was, that if something wasn't done aboutit in less than no time she'd have everybody executed, all round.(It was this last remark
+139 chars
+>(765/1132)that had made the whole party look sograve and anxious.)  Alice could think of nothing else to say but `It belongs to theDuchess: 
+140 chars
+>(766/1132)you'd better ask HER about it.'  `She's in prison,' the Queen said to the executioner:  `fetchher here.'  And the executioner went
+140 chars
+>(767/1132)off like an arrow.   The Cat's head began fading away the moment he was gone, and,by the time he had come back with the Duchess,
+138 chars
+>(768/1132)it had entirelydisappeared; so the King and the executioner ran wildly up and downlooking for it, while the rest of the party went
+140 chars
+>(769/1132)back to the game.                           CHAPTER IX                     The Mock Turtle's Story  `You can't think how glad I am
+140 chars
+>(770/1132)to see you again, you dear oldthing!' said the Duchess, as she tucked her arm affectionatelyinto Alice's, and they walked off
+135 chars
+>(771/1132)together.  Alice was very glad to find her in such a pleasant temper, andthought to herself that perhaps it was only the pepper
+137 chars
+>(772/1132)that hadmade her so savage when they met in the kitchen.  `When I'M a Duchess,' she said to herself, (not in a veryhopeful tone
+137 chars
+>(773/1132)though), `I won't have any pepper in my kitchen ATALL.  Soup does very well without--Maybe it's always pepper thatmakes people
+136 chars
+>(774/1132)hot-tempered,' she went on, very much pleased athaving found out a new kind of rule, `and vinegar that makes themsour--and
+132 chars
+>(775/1132)camomile that makes them bitter--and--and barley-sugarand such things that make children sweet-tempered.  I only wishpeople knew
+138 chars
+>(776/1132)that:  then they wouldn't be so stingy about it, youknow--'  She had quite forgotten the Duchess by this time, and was alittle
+136 chars
+>(777/1132)startled when she heard her voice close to her ear.`You're thinking about something, my dear, and that makes youforget to talk.  I
+140 chars
+>(778/1132)can't tell you just now what the moral of thatis, but I shall remember it in a bit.'  `Perhaps it hasn't one,' Alice ventured to
+138 chars
+>(779/1132)remark.  `Tut, tut, child!' said the Duchess.  `Everything's got amoral, if only you can find it.'  And she squeezed herself
+134 chars
+>(780/1132)upcloser to Alice's side as she spoke.  Alice did not much like keeping so close to her:  first,because the Duchess was VERY ugly;
+140 chars
+>(781/1132)and secondly, because she wasexactly the right height to rest her chin upon Alice's shoulder,and it was an uncomfortably sharp
+136 chars
+>(782/1132)chin.  However, she did notlike to be rude, so she bore it as well as she could.  `The game's going on rather better now,' she
+136 chars
+>(783/1132)said, by way ofkeeping up the conversation a little.  `'Tis so,' said the Duchess:  `and the moral of that is--"Oh,'tis love, 'tis
+140 chars
+>(784/1132)love, that makes the world go round!"'  `Somebody said,' Alice whispered, `that it's done by everybodyminding their own business!'
+140 chars
+>(785/1132)`Ah, well!  It means much the same thing,' said the Duchess,digging her sharp little chin into Alice's shoulder as she added,`and
+139 chars
+>(786/1132)the moral of THAT is--"Take care of the sense, and thesounds will take care of themselves."'  `How fond she is of finding morals
+138 chars
+>(787/1132)in things!' Alice thought toherself.  `I dare say you're wondering why I don't put my arm round yourwaist,' the Duchess said after
+140 chars
+>(788/1132)a pause:  `the reason is, that I'mdoubtful about the temper of your flamingo.  Shall I try theexperiment?'  `HE might bite,' Alice
+140 chars
+>(789/1132)cautiously replied, not feeling at allanxious to have the experiment tried.  `Very true,' said the Duchess:  `flamingoes and
+134 chars
+>(790/1132)mustard bothbite.  And the moral of that is--"Birds of a feather flocktogether."'  `Only mustard isn't a bird,' Alice remarked. 
+138 chars
+>(791/1132)`Right, as usual,' said the Duchess:  `what a clear way youhave of putting things!'  `It's a mineral, I THINK,' said Alice.  `Of
+138 chars
+>(792/1132)course it is,' said the Duchess, who seemed ready to agreeto everything that Alice said; `there's a large mustard-mine nearhere. 
+139 chars
+>(793/1132)And the moral of that is--"The more there is of mine, theless there is of yours."'  `Oh, I know!' exclaimed Alice, who had not
+136 chars
+>(794/1132)attended to thislast remark, `it's a vegetable.  It doesn't look like one, but itis.'  `I quite agree with you,' said the Duchess;
+140 chars
+>(795/1132)`and the moral ofthat is--"Be what you would seem to be"--or if you'd like it putmore simply--"Never imagine yourself not to be
+137 chars
+>(796/1132)otherwise thanwhat it might appear to others that what you were or might havebeen was not otherwise than what you had been would
+138 chars
+>(797/1132)have appearedto them to be otherwise."'  `I think I should understand that better,' Alice said verypolitely, `if I had it written
+139 chars
+>(798/1132)down:  but I can't quite follow itas you say it.'  `That's nothing to what I could say if I chose,' the Duchessreplied, in a
+134 chars
+>(799/1132)pleased tone.  `Pray don't trouble yourself to say it any longer than that,'said Alice.  `Oh, don't talk about trouble!' said the
+139 chars
+>(800/1132)Duchess.  `I make youa present of everything I've said as yet.'  `A cheap sort of present!' thought Alice.  `I'm glad they
+132 chars
+>(801/1132)don'tgive birthday presents like that!'  But she did not venture tosay it out loud.  `Thinking again?' the Duchess asked, with
+136 chars
+>(802/1132)another dig of hersharp little chin.  `I've a right to think,' said Alice sharply, for she wasbeginning to feel a little worried. 
+140 chars
+>(803/1132)`Just about as much right,' said the Duchess, `as pigs have to fly;and the m--'  But here, to Alice's great surprise, the
+131 chars
+>(804/1132)Duchess's voice diedaway, even in the middle of her favourite word `moral,' and thearm that was linked into hers began to tremble.
+140 chars
+>(805/1132)Alice looked up,and there stood the Queen in front of them, with her arms folded,frowning like a thunderstorm.  `A fine day, your
+139 chars
+>(806/1132)Majesty!' the Duchess began in a low, weakvoice.  `Now, I give you fair warning,' shouted the Queen, stamping onthe ground as she
+139 chars
+>(807/1132)spoke; `either you or your head must be off,and that in about half no time!  Take your choice!'  The Duchess took her choice, and
+139 chars
+>(808/1132)was gone in a moment.  `Let's go on with the game,' the Queen said to Alice; and Alicewas too much frightened to say a word, but
+138 chars
+>(809/1132)slowly followed herback to the croquet-ground.  The other guests had taken advantage of the Queen's absence,and were resting in
+137 chars
+>(810/1132)the shade:  however, the moment they saw her,they hurried back to the game, the Queen merely remarking that amoment's delay would
+139 chars
+>(811/1132)cost them their lives.  All the time they were playing the Queen never left offquarrelling with the other players, and shouting
+137 chars
+>(812/1132)`Off with hishead!' or `Off with her head!'  Those whom she sentenced weretaken into custody by the soldiers, who of course had to
+140 chars
+>(813/1132)leaveoff being arches to do this, so that by the end of half an houror so there were no arches left, and all the players, except
+138 chars
+>(814/1132)theKing, the Queen, and Alice, were in custody and under sentence ofexecution.  Then the Queen left off, quite out of breath, and
+139 chars
+>(815/1132)said toAlice, `Have you seen the Mock Turtle yet?'  `No,' said Alice.  `I don't even know what a Mock Turtle is.'  `It's the thing
+140 chars
+>(816/1132)Mock Turtle Soup is made from,' said the Queen.  `I never saw one, or heard of one,' said Alice.  `Come on, then,' said the Queen,
+140 chars
+>(817/1132)`and he shall tell you hishistory,'  As they walked off together, Alice heard the King say in a lowvoice, to the company
+130 chars
+>(818/1132)generally, `You are all pardoned.'  `Come,THAT'S a good thing!' she said to herself, for she had felt quiteunhappy at the number
+138 chars
+>(819/1132)of executions the Queen had ordered.  They very soon came upon a Gryphon, lying fast asleep in thesun.  (IF you don't know what a
+139 chars
+>(820/1132)Gryphon is, look at the picture.)`Up, lazy thing!' said the Queen, `and take this young lady tosee the Mock Turtle, and to hear
+137 chars
+>(821/1132)his history.  I must go back andsee after some executions I have ordered'; and she walked off,leaving Alice alone with the
+132 chars
+>(822/1132)Gryphon.  Alice did not quite likethe look of the creature, but on the whole she thought it wouldbe quite as safe to stay with it
+139 chars
+>(823/1132)as to go after that savageQueen:  so she waited.  The Gryphon sat up and rubbed its eyes:  then it watched theQueen till she was
+138 chars
+>(824/1132)out of sight:  then it chuckled.  `What fun!'said the Gryphon, half to itself, half to Alice.  `What IS the fun?' said Alice. 
+136 chars
+>(825/1132)`Why, SHE,' said the Gryphon.  `It's all her fancy, that:  theynever executes nobody, you know.  Come on!'  `Everybody says "come
+139 chars
+>(826/1132)on!" here,' thought Alice, as she wentslowly after it:  `I never was so ordered about in all my life,never!'  They had not gone
+137 chars
+>(827/1132)far before they saw the Mock Turtle in thedistance, sitting sad and lonely on a little ledge of rock, and,as they came nearer,
+136 chars
+>(828/1132)Alice could hear him sighing as if his heartwould break.  She pitied him deeply.  `What is his sorrow?' sheasked the Gryphon, and
+139 chars
+>(829/1132)the Gryphon answered, very nearly in thesame words as before, `It's all his fancy, that:  he hasn't gotno sorrow, you know.  Come
+139 chars
+>(830/1132)on!'  So they went up to the Mock Turtle, who looked at them withlarge eyes full of tears, but said nothing.  `This here young
+136 chars
+>(831/1132)lady,' said the Gryphon, `she wants for toknow your history, she do.'  `I'll tell it her,' said the Mock Turtle in a deep,
+132 chars
+>(832/1132)hollowtone:  `sit down, both of you, and don't speak a word till I'vefinished.'  So they sat down, and nobody spoke for some
+134 chars
+>(833/1132)minutes.  Alicethought to herself, `I don't see how he can EVEN finish, if hedoesn't begin.'  But she waited patiently.  `Once,'
+138 chars
+>(834/1132)said the Mock Turtle at last, with a deep sigh, `I wasa real Turtle.'  These words were followed by a very long silence, broken
+137 chars
+>(835/1132)onlyby an occasional exclamation of `Hjckrrh!' from the Gryphon, andthe constant heavy sobbing of the Mock Turtle.  Alice was
+135 chars
+>(836/1132)verynearly getting up and saying, `Thank you, sir, for yourinteresting story,' but she could not help thinking there MUST bemore
+138 chars
+>(837/1132)to come, so she sat still and said nothing.  `When we were little,' the Mock Turtle went on at last, morecalmly, though still
+135 chars
+>(838/1132)sobbing a little now and then, `we went toschool in the sea.  The master was an old Turtle--we used to callhim Tortoise--'  `Why
+138 chars
+>(839/1132)did you call him Tortoise, if he wasn't one?' Alice asked.  `We called him Tortoise because he taught us,' said the MockTurtle
+136 chars
+>(840/1132)angrily:  `really you are very dull!'  `You ought to be ashamed of yourself for asking such a simplequestion,' added the Gryphon;
+139 chars
+>(841/1132)and then they both sat silent andlooked at poor Alice, who felt ready to sink into the earth.  Atlast the Gryphon said to the Mock
+140 chars
+>(842/1132)Turtle, `Drive on, old fellow!Don't be all day about it!' and he went on in these words:  `Yes, we went to school in the sea,
+135 chars
+>(843/1132)though you mayn't believeit--'  `I never said I didn't!' interrupted Alice.  `You did,' said the Mock Turtle.  `Hold your tongue!'
+140 chars
+>(844/1132)added the Gryphon, before Alice could speakagain.  The Mock Turtle went on.  `We had the best of educations--in fact, we went to
+138 chars
+>(845/1132)schoolevery day--'  `I'VE been to a day-school, too,' said Alice; `you needn't beso proud as all that.'  `With extras?' asked the
+139 chars
+>(846/1132)Mock Turtle a little anxiously.  `Yes,' said Alice, `we learned French and music.'  `And washing?' said the Mock Turtle. 
+131 chars
+>(847/1132)`Certainly not!' said Alice indignantly.  `Ah! then yours wasn't a really good school,' said the MockTurtle in a tone of great
+136 chars
+>(848/1132)relief.  `Now at OURS they had at theend of the bill, "French, music, AND WASHING--extra."'  `You couldn't have wanted it much,'
+138 chars
+>(849/1132)said Alice; `living at thebottom of the sea.'  `I couldn't afford to learn it.' said the Mock Turtle with asigh.  `I only took the
+140 chars
+>(850/1132)regular course.'  `What was that?' inquired Alice.  `Reeling and Writhing, of course, to begin with,' the MockTurtle replied; `and
+140 chars
+>(851/1132)then the different branches of Arithmetic--Ambition, Distraction, Uglification, and Derision.'  `I never heard of "Uglification,"'
+140 chars
+>(852/1132)Alice ventured to say.  `What is it?'  The Gryphon lifted up both its paws in surprise.  `What!  Neverheard of uglifying!' it
+135 chars
+>(853/1132)exclaimed.  `You know what to beautify is,I suppose?'  `Yes,' said Alice doubtfully:  `it means--to--make--anything--prettier.' 
+138 chars
+>(854/1132)`Well, then,' the Gryphon went on, `if you don't know what touglify is, you ARE a simpleton.'  Alice did not feel encouraged to
+137 chars
+>(855/1132)ask any more questions aboutit, so she turned to the Mock Turtle, and said `What else had youto learn?'  `Well, there was
+131 chars
+>(856/1132)Mystery,' the Mock Turtle replied, countingoff the subjects on his flappers, `--Mystery, ancient and modern,with Seaography:  then
+140 chars
+>(857/1132)Drawling--the Drawling-master was an oldconger-eel, that used to come once a week:  HE taught usDrawling, Stretching, and Fainting
+140 chars
+>(858/1132)in Coils.'  `What was THAT like?' said Alice.  `Well, I can't show it you myself,' the Mock Turtle said:  `I'mtoo stiff.  And the
+139 chars
+>(859/1132)Gryphon never learnt it.'  `Hadn't time,' said the Gryphon:  `I went to the Classicsmaster, though.  He was an old crab, HE was.' 
+140 chars
+>(860/1132)`I never went to him,' the Mock Turtle said with a sigh:  `hetaught Laughing and Grief, they used to say.'  `So he did, so he
+135 chars
+>(861/1132)did,' said the Gryphon, sighing in his turn;and both creatures hid their faces in their paws.  `And how many hours a day did you
+138 chars
+>(862/1132)do lessons?' said Alice, in ahurry to change the subject.  `Ten hours the first day,' said the Mock Turtle: `nine thenext, and so
+139 chars
+>(863/1132)on.'  `What a curious plan!' exclaimed Alice.  `That's the reason they're called lessons,' the Gryphonremarked:  `because they
+136 chars
+>(864/1132)lessen from day to day.'  This was quite a new idea to Alice, and she thought it over alittle before she made her next remark. 
+137 chars
+>(865/1132)`Then the eleventh daymust have been a holiday?'  `Of course it was,' said the Mock Turtle.  `And how did you manage on the
+133 chars
+>(866/1132)twelfth?' Alice went on eagerly.  `That's enough about lessons,' the Gryphon interrupted in avery decided tone:  `tell her
+132 chars
+>(867/1132)something about the games now.'                            CHAPTER X                      The Lobster Quadrille  The Mock Turtle
+138 chars
+>(868/1132)sighed deeply, and drew the back of one flapperacross his eyes.  He looked at Alice, and tried to speak, but fora minute or two
+137 chars
+>(869/1132)sobs choked his voice.  `Same as if he had a bonein his throat,' said the Gryphon:  and it set to work shaking himand punching him
+140 chars
+>(870/1132)in the back.  At last the Mock Turtle recoveredhis voice, and, with tears running down his cheeks, he went onagain:--  `You may
+137 chars
+>(871/1132)not have lived much under the sea--' (`I haven't,' said Alice)--`and perhaps you were never even introduced to a lobster--'(Alice
+139 chars
+>(872/1132)began to say `I once tasted--' but checked herself hastily,and said `No, never') `--so you can have no idea what a delightfulthing
+140 chars
+>(873/1132)a Lobster Quadrille is!'  `No, indeed,' said Alice.  `What sort of a dance is it?'  `Why,' said the Gryphon, `you first form into
+139 chars
+>(874/1132)a line along the sea-shore--'  `Two lines!' cried the Mock Turtle.  `Seals, turtles, salmon, and so on;then, when you've cleared
+138 chars
+>(875/1132)all the jelly-fish out of the way--'  `THAT generally takes some time,' interrupted the Gryphon.  `--you advance twice--'  `Each
+138 chars
+>(876/1132)with a lobster as a partner!' cried the Gryphon.  `Of course,' the Mock Turtle said:  `advance twice, set topartners--'  `--change
+140 chars
+>(877/1132)lobsters, and retire in same order,' continued theGryphon.  `Then, you know,' the Mock Turtle went on, `you throw the--'  `The
+136 chars
+>(878/1132)lobsters!' shouted the Gryphon, with a bound into the air.  `--as far out to sea as you can--'  `Swim after them!' screamed the
+137 chars
+>(879/1132)Gryphon.  `Turn a somersault in the sea!' cried the Mock Turtle,capering wildly about.  `Change lobsters again!' yelled the
+133 chars
+>(880/1132)Gryphon at the top of its voice.  `Back to land again, and that's all the first figure,' said theMock Turtle, suddenly dropping
+137 chars
+>(881/1132)his voice; and the two creatures,who had been jumping about like mad things all this time, satdown again very sadly and quietly,
+138 chars
+>(882/1132)and looked at Alice.  `It must be a very pretty dance,' said Alice timidly.  `Would you like to see a little of it?' said the Mock
+140 chars
+>(883/1132)Turtle.  `Very much indeed,' said Alice.  `Come, let's try the first figure!' said the Mock Turtle to theGryphon.  `We can do
+135 chars
+>(884/1132)without lobsters, you know.  Which shallsing?'  `Oh, YOU sing,' said the Gryphon.  `I've forgotten the words.'  So they began
+135 chars
+>(885/1132)solemnly dancing round and round Alice, every nowand then treading on her toes when they passed too close, andwaving their
+132 chars
+>(886/1132)forepaws to mark the time, while the Mock Turtlesang this, very slowly and sadly:--`"Will you walk a little faster?" said a
+133 chars
+>(887/1132)whiting to a snail."There's a porpoise close behind us, and he's treading on my tail.See how eagerly the lobsters and the turtles
+139 chars
+>(888/1132)all advance!They are waiting on the shingle--will you come and join thedance?Will you, won't you, will you, won't you, will you
+137 chars
+>(889/1132)join thedance?Will you, won't you, will you, won't you, won't you join thedance?"You can really have no notion how delightful it
+138 chars
+>(890/1132)will beWhen they take us up and throw us, with the lobsters, out to                                                      sea!"But
+139 chars
+>(891/1132)the snail replied "Too far, too far!" and gave a look                                                       askance--Said he
+134 chars
+>(892/1132)thanked the whiting kindly, but he would not join the   dance.    Would not, could not, would not, could not, would not join      
+140 chars
+>(893/1132)the dance.    Would not, could not, would not, could not, could not join        the dance.`"What matters it how far we go?" his
+137 chars
+>(894/1132)scaly friend replied."There is another shore, you know, upon the other side.The further off from England the nearer is to
+131 chars
+>(895/1132)France--Then turn not pale, beloved snail, but come and join the dance.    Will you, won't you, will you, won't you, will you join
+140 chars
+>(896/1132)the         dance?    Will you, won't you, will you, won't you, won't you join the         dance?"'  `Thank you, it's a very
+134 chars
+>(897/1132)interesting dance to watch,' saidAlice, feeling very glad that it was over at last:  `and I do solike that curious song about the
+139 chars
+>(898/1132)whiting!'  `Oh, as to the whiting,' said the Mock Turtle, `they--you'veseen them, of course?'  `Yes,' said Alice, `I've often seen
+140 chars
+>(899/1132)them at dinn--' shechecked herself hastily.  `I don't know where Dinn may be,' said the Mock Turtle, `butif you've seen them so
+137 chars
+>(900/1132)often, of course you know what they'relike.'  `I believe so,' Alice replied thoughtfully.  `They have theirtails in their
+131 chars
+>(901/1132)mouths--and they're all over crumbs.'  `You're wrong about the crumbs,' said the Mock Turtle:`crumbs would all wash off in the
+136 chars
+>(902/1132)sea.  But they HAVE their tailsin their mouths; and the reason is--' here the Mock Turtleyawned and shut his eyes.--`Tell her
+135 chars
+>(903/1132)about the reason and allthat,' he said to the Gryphon.  `The reason is,' said the Gryphon, `that they WOULD go withthe lobsters to
+140 chars
+>(904/1132)the dance.  So they got thrown out to sea.  Sothey had to fall a long way.  So they got their tails fast intheir mouths.  So they
+139 chars
+>(905/1132)couldn't get them out again.  That's all.'  `Thank you,' said Alice, `it's very interesting.  I never knewso much about a whiting
+139 chars
+>(906/1132)before.'  `I can tell you more than that, if you like,' said theGryphon.  `Do you know why it's called a whiting?'  `I never
+134 chars
+>(907/1132)thought about it,' said Alice.  `Why?'  `IT DOES THE BOOTS AND SHOES.' the Gryphon replied verysolemnly.  Alice was thoroughly
+136 chars
+>(908/1132)puzzled.  `Does the boots and shoes!' sherepeated in a wondering tone.  `Why, what are YOUR shoes done with?' said the Gryphon. 
+138 chars
+>(909/1132)`Imean, what makes them so shiny?'  Alice looked down at them, and considered a little before shegave her answer.  `They're done
+138 chars
+>(910/1132)with blacking, I believe.'  `Boots and shoes under the sea,' the Gryphon went on in a deepvoice, `are done with a whiting.  Now
+137 chars
+>(911/1132)you know.'  `And what are they made of?' Alice asked in a tone of greatcuriosity.  `Soles and eels, of course,' the Gryphon
+133 chars
+>(912/1132)replied ratherimpatiently:  `any shrimp could have told you that.'  `If I'd been the whiting,' said Alice, whose thoughts
+131 chars
+>(913/1132)werestill running on the song, `I'd have said to the porpoise, "Keepback, please:  we don't want YOU with us!"'  `They were
+133 chars
+>(914/1132)obliged to have him with them,' the Mock Turtlesaid:  `no wise fish would go anywhere without a porpoise.'  `Wouldn't it really?'
+139 chars
+>(915/1132)said Alice in a tone of great surprise.  `Of course not,' said the Mock Turtle:  `why, if a fish cameto ME, and told me he was
+136 chars
+>(916/1132)going a journey, I should say "Withwhat porpoise?"'  `Don't you mean "purpose"?' said Alice.  `I mean what I say,' the Mock Turtle
+140 chars
+>(917/1132)replied in an offendedtone.  And the Gryphon added `Come, let's hear some of YOURadventures.'  `I could tell you my
+125 chars
+>(918/1132)adventures--beginning from this morning,'said Alice a little timidly:  `but it's no use going back toyesterday, because I was a
+137 chars
+>(919/1132)different person then.'  `Explain all that,' said the Mock Turtle.  `No, no!  The adventures first,' said the Gryphon in
+130 chars
+>(920/1132)animpatient tone:  `explanations take such a dreadful time.'  So Alice began telling them her adventures from the time whenshe
+136 chars
+>(921/1132)first saw the White Rabbit.  She was a little nervous aboutit just at first, the two creatures got so close to her, one oneach
+136 chars
+>(922/1132)side, and opened their eyes and mouths so VERY wide, but shegained courage as she went on.  Her listeners were perfectlyquiet till
+140 chars
+>(923/1132)she got to the part about her repeating `YOU ARE OLD,FATHER WILLIAM,' to the Caterpillar, and the words all comingdifferent, and
+138 chars
+>(924/1132)then the Mock Turtle drew a long breath, and said`That's very curious.'  `It's all about as curious as it can be,' said the
+133 chars
+>(925/1132)Gryphon.  `It all came different!' the Mock Turtle repeatedthoughtfully.  `I should like to hear her try and repeatsomething now. 
+140 chars
+>(926/1132)Tell her to begin.'  He looked at the Gryphon asif he thought it had some kind of authority over Alice.  `Stand up and repeat
+135 chars
+>(927/1132)"'TIS THE VOICE OF THE SLUGGARD,"' saidthe Gryphon.  `How the creatures order one about, and make one repeatlessons!' thought
+135 chars
+>(928/1132)Alice; `I might as well be at school at once.'However, she got up, and began to repeat it, but her head was sofull of the Lobster
+139 chars
+>(929/1132)Quadrille, that she hardly knew what she wassaying, and the words came very queer indeed:--    `'Tis the voice of the Lobster; I
+138 chars
+>(930/1132)heard him declare,    "You have baked me too brown, I must sugar my hair."    As a duck with its eyelids, so he with his nose   
+138 chars
+>(931/1132)Trims his belt and his buttons, and turns out his toes.'              [later editions continued as follows    When the sands are
+138 chars
+>(932/1132)all dry, he is gay as a lark,    And will talk in contemptuous tones of the Shark,    But, when the tide rises and sharks are
+135 chars
+>(933/1132)around,    His voice has a timid and tremulous sound.]  `That's different from what I used to say when I was a child,'said the
+136 chars
+>(934/1132)Gryphon.  `Well, I never heard it before,' said the Mock Turtle; `but itsounds uncommon nonsense.'  Alice said nothing; she had
+137 chars
+>(935/1132)sat down with her face in herhands, wondering if anything would EVER happen in a natural wayagain.  `I should like to have it
+135 chars
+>(936/1132)explained,' said the Mock Turtle.  `She can't explain it,' said the Gryphon hastily.  `Go on withthe next verse.'  `But about his
+139 chars
+>(937/1132)toes?' the Mock Turtle persisted.  `How COULDhe turn them out with his nose, you know?'  `It's the first position in dancing.'
+136 chars
+>(938/1132)Alice said; but wasdreadfully puzzled by the whole thing, and longed to change thesubject.  `Go on with the next verse,' the
+134 chars
+>(939/1132)Gryphon repeated impatiently:`it begins "I passed by his garden."'  Alice did not dare to disobey, though she felt sure it
+132 chars
+>(940/1132)wouldall come wrong, and she went on in a trembling voice:--    `I passed by his garden, and marked, with one eye,    How the Owl
+139 chars
+>(941/1132)and the Panther were sharing a pie--'        [later editions continued as follows    The Panther took pie-crust, and gravy, and
+137 chars
+>(942/1132)meat,    While the Owl had the dish as its share of the treat.    When the pie was all finished, the Owl, as a boon,    Was kindly
+140 chars
+>(943/1132)permitted to pocket the spoon:    While the Panther received knife and fork with a growl,    And concluded the banquet--]  `What
+138 chars
+>(944/1132)IS the use of repeating all that stuff,' the Mock Turtleinterrupted, `if you don't explain it as you go on?  It's by farthe most
+138 chars
+>(945/1132)confusing thing I ever heard!'  `Yes, I think you'd better leave off,' said the Gryphon:  andAlice was only too glad to do so. 
+137 chars
+>(946/1132)`Shall we try another figure of the Lobster Quadrille?' theGryphon went on.  `Or would you like the Mock Turtle to sing youa
+134 chars
+>(947/1132)song?'  `Oh, a song, please, if the Mock Turtle would be so kind,'Alice replied, so eagerly that the Gryphon said, in a
+129 chars
+>(948/1132)ratheroffended tone, `Hm!  No accounting for tastes!  Sing her"Turtle Soup," will you, old fellow?'  The Mock Turtle sighed
+133 chars
+>(949/1132)deeply, and began, in a voice sometimeschoked with sobs, to sing this:--    `Beautiful Soup, so rich and green,    Waiting in a
+137 chars
+>(950/1132)hot tureen!    Who for such dainties would not stoop?    Soup of the evening, beautiful Soup!    Soup of the evening, beautiful
+137 chars
+>(951/1132)Soup!        Beau--ootiful Soo--oop!        Beau--ootiful Soo--oop!    Soo--oop of the e--e--evening,        Beautiful, beautiful
+139 chars
+>(952/1132)Soup!    `Beautiful Soup!  Who cares for fish,    Game, or any other dish?    Who would not give all else for two    Pennyworth
+137 chars
+>(953/1132)only of beautiful Soup?    Pennyworth only of beautiful Soup?        Beau--ootiful Soo--oop!        Beau--ootiful Soo--oop!   
+136 chars
+>(954/1132)Soo--oop of the e--e--evening,        Beautiful, beauti--FUL SOUP!'  `Chorus again!' cried the Gryphon, and the Mock Turtle
+133 chars
+>(955/1132)hadjust begun to repeat it, when a cry of `The trial's beginning!'was heard in the distance.  `Come on!' cried the Gryphon, and,
+138 chars
+>(956/1132)taking Alice by the hand,it hurried off, without waiting for the end of the song.  `What trial is it?' Alice panted as she ran;
+137 chars
+>(957/1132)but the Gryphononly answered `Come on!' and ran the faster, while more and morefaintly came, carried on the breeze that followed
+138 chars
+>(958/1132)them, themelancholy words:--    `Soo--oop of the e--e--evening,        Beautiful, beautiful Soup!'                          
+134 chars
+>(959/1132)CHAPTER XI                      Who Stole the Tarts?  The King and Queen of Hearts were seated on their throne whenthey arrived,
+138 chars
+>(960/1132)with a great crowd assembled about them--all sortsof little birds and beasts, as well as the whole pack of cards:the Knave was
+136 chars
+>(961/1132)standing before them, in chains, with a soldier oneach side to guard him; and near the King was the White Rabbit,with a trumpet in
+140 chars
+>(962/1132)one hand, and a scroll of parchment in theother.  In the very middle of the court was a table, with a largedish of tarts upon it: 
+140 chars
+>(963/1132)they looked so good, that it made Alicequite hungry to look at them--`I wish they'd get the trial done,'she thought, `and hand
+136 chars
+>(964/1132)round the refreshments!'  But there seemedto be no chance of this, so she began looking at everything abouther, to pass away the
+138 chars
+>(965/1132)time.  Alice had never been in a court of justice before, but she hadread about them in books, and she was quite pleased to find
+138 chars
+>(966/1132)thatshe knew the name of nearly everything there.  `That's thejudge,' she said to herself, `because of his great wig.'  The judge,
+140 chars
+>(967/1132)by the way, was the King; and as he wore his crownover the wig, (look at the frontispiece if you want to see how hedid it,) he did
+140 chars
+>(968/1132)not look at all comfortable, and it was certainlynot becoming.  `And that's the jury-box,' thought Alice, `and those
+126 chars
+>(969/1132)twelvecreatures,' (she was obliged to say `creatures,' you see, becausesome of them were animals, and some were birds,) `I suppose
+140 chars
+>(970/1132)theyare the jurors.'  She said this last word two or three times overto herself, being rather proud of it:  for she thought,
+134 chars
+>(971/1132)andrightly too, that very few little girls of her age knew themeaning of it at all.  However, `jury-men' would have done justas
+137 chars
+>(972/1132)well.  The twelve jurors were all writing very busily on slates.`What are they doing?'  Alice whispered to the Gryphon. 
+130 chars
+>(973/1132)`Theycan't have anything to put down yet, before the trial's begun.'  `They're putting down their names,' the Gryphon whispered
+137 chars
+>(974/1132)inreply, `for fear they should forget them before the end of thetrial.'  `Stupid things!' Alice began in a loud, indignant voice,
+139 chars
+>(975/1132)butshe stopped hastily, for the White Rabbit cried out, `Silence inthe court!' and the King put on his spectacles and
+127 chars
+>(976/1132)lookedanxiously round, to make out who was talking.  Alice could see, as well as if she were looking over theirshoulders, that all
+140 chars
+>(977/1132)the jurors were writing down `stupid things!'on their slates, and she could even make out that one of themdidn't know how to spell
+140 chars
+>(978/1132)`stupid,' and that he had to ask hisneighbour to tell him.  `A nice muddle their slates'll be inbefore the trial's over!' thought
+139 chars
+>(979/1132)Alice.  One of the jurors had a pencil that squeaked.  This of course,Alice could not stand, and she went round the court and
+135 chars
+>(980/1132)gotbehind him, and very soon found an opportunity of taking itaway.  She did it so quickly that the poor little juror (it wasBill,
+140 chars
+>(981/1132)the Lizard) could not make out at all what had become ofit; so, after hunting all about for it, he was obliged to writewith one
+137 chars
+>(982/1132)finger for the rest of the day; and this was of verylittle use, as it left no mark on the slate.  `Herald, read the accusation!'
+138 chars
+>(983/1132)said the King.  On this the White Rabbit blew three blasts on the trumpet, andthen unrolled the parchment scroll, and read as
+135 chars
+>(984/1132)follows:--    `The Queen of Hearts, she made some tarts,          All on a summer day:      The Knave of Hearts, he stole those
+137 chars
+>(985/1132)tarts,          And took them quite away!'  `Consider your verdict,' the King said to the jury.  `Not yet, not yet!' the Rabbit
+137 chars
+>(986/1132)hastily interrupted.  `There'sa great deal to come before that!'  `Call the first witness,' said the King; and the White
+130 chars
+>(987/1132)Rabbitblew three blasts on the trumpet, and called out, `Firstwitness!'  The first witness was the Hatter.  He came in with a
+135 chars
+>(988/1132)teacup inone hand and a piece of bread-and-butter in the other.  `I begpardon, your Majesty,' he began, `for bringing these in: 
+138 chars
+>(989/1132)but Ihadn't quite finished my tea when I was sent for.'  `You ought to have finished,' said the King.  `When did youbegin?'  The
+138 chars
+>(990/1132)Hatter looked at the March Hare, who had followed him intothe court, arm-in-arm with the Dormouse.  `Fourteenth of March, Ithink
+138 chars
+>(991/1132)it was,' he said.  `Fifteenth,' said the March Hare.  `Sixteenth,' added the Dormouse.  `Write that down,' the King said to the
+137 chars
+>(992/1132)jury, and the juryeagerly wrote down all three dates on their slates, and thenadded them up, and reduced the answer to shillings
+138 chars
+>(993/1132)and pence.  `Take off your hat,' the King said to the Hatter.  `It isn't mine,' said the Hatter.  `Stolen!' the King exclaimed,
+137 chars
+>(994/1132)turning to the jury, whoinstantly made a memorandum of the fact.  `I keep them to sell,' the Hatter added as an explanation;`I've
+139 chars
+>(995/1132)none of my own.  I'm a hatter.'  Here the Queen put on her spectacles, and began staring at theHatter, who turned pale and
+132 chars
+>(996/1132)fidgeted.  `Give your evidence,' said the King; `and don't be nervous, orI'll have you executed on the spot.'  This did not seem
+138 chars
+>(997/1132)to encourage the witness at all:  he keptshifting from one foot to the other, looking uneasily at theQueen, and in his confusion
+138 chars
+>(998/1132)he bit a large piece out of histeacup instead of the bread-and-butter.  Just at this moment Alice felt a very curious sensation,
+138 chars
+>(999/1132)whichpuzzled her a good deal until she made out what it was:  she wasbeginning to grow larger again, and she thought at first
+135 chars
+>(1000/1132)shewould get up and leave the court; but on second thoughts shedecided to remain where she was as long as there was room forher. 
+140 chars
+>(1001/1132)`I wish you wouldn't squeeze so.' said the Dormouse, who wassitting next to her.  `I can hardly breathe.'  `I can't help it,'
+136 chars
+>(1002/1132)said Alice very meekly:  `I'm growing.'  `You've no right to grow here,' said the Dormouse.  `Don't talk nonsense,' said Alice
+137 chars
+>(1003/1132)more boldly:  `you knowyou're growing too.'  `Yes, but I grow at a reasonable pace,' said the Dormouse:`not in that ridiculous
+137 chars
+>(1004/1132)fashion.'  And he got up very sulkilyand crossed over to the other side of the court.  All this time the Queen had never left off
+140 chars
+>(1005/1132)staring at theHatter, and, just as the Dormouse crossed the court, she said toone of the officers of the court, `Bring me the
+136 chars
+>(1006/1132)list of thesingers in the last concert!' on which the wretched Hattertrembled so, that he shook both his shoes off.  `Give your
+138 chars
+>(1007/1132)evidence,' the King repeated angrily, `or I'll haveyou executed, whether you're nervous or not.'  `I'm a poor man, your Majesty,'
+140 chars
+>(1008/1132)the Hatter began, in atrembling voice, `--and I hadn't begun my tea--not above a weekor so--and what with the bread-and-butter
+137 chars
+>(1009/1132)getting so thin--andthe twinkling of the tea--'  `The twinkling of the what?' said the King.  `It began with the tea,' the Hatter
+140 chars
+>(1010/1132)replied.  `Of course twinkling begins with a T!' said the King sharply.`Do you take me for a dunce?  Go on!'  `I'm a poor man,'
+138 chars
+>(1011/1132)the Hatter went on, `and most thingstwinkled after that--only the March Hare said--'  `I didn't!' the March Hare interrupted in a
+140 chars
+>(1012/1132)great hurry.  `You did!' said the Hatter.  `I deny it!' said the March Hare.  `He denies it,' said the King:  `leave out that
+136 chars
+>(1013/1132)part.'  `Well, at any rate, the Dormouse said--' the Hatter went on,looking anxiously round to see if he would deny it too:  but
+139 chars
+>(1014/1132)theDormouse denied nothing, being fast asleep.  `After that,' continued the Hatter, `I cut some more bread-and-butter--'  `But
+137 chars
+>(1015/1132)what did the Dormouse say?' one of the jury asked.  `That I can't remember,' said the Hatter.  `You MUST remember,' remarked the
+139 chars
+>(1016/1132)King, `or I'll have youexecuted.'  The miserable Hatter dropped his teacup and bread-and-butter,and went down on one knee.  `I'm
+139 chars
+>(1017/1132)a poor man, your Majesty,' hebegan.  `You're a very poor speaker,' said the King.  Here one of the guinea-pigs cheered, and was
+138 chars
+>(1018/1132)immediatelysuppressed by the officers of the court.  (As that is rather ahard word, I will just explain to you how it was done. 
+139 chars
+>(1019/1132)They hada large canvas bag, which tied up at the mouth with strings:into this they slipped the guinea-pig, head first, and then
+138 chars
+>(1020/1132)satupon it.)  `I'm glad I've seen that done,' thought Alice.  `I've so oftenread in the newspapers, at the end of trials, "There
+139 chars
+>(1021/1132)was someattempts at applause, which was immediately suppressed by theofficers of the court," and I never understood what it
+134 chars
+>(1022/1132)meanttill now.'  `If that's all you know about it, you may stand down,'continued the King.  `I can't go no lower,' said the
+134 chars
+>(1023/1132)Hatter:  `I'm on the floor, asit is.'  `Then you may SIT down,' the King replied.  Here the other guinea-pig cheered, and was
+136 chars
+>(1024/1132)suppressed.  `Come, that finished the guinea-pigs!' thought Alice.  `Now weshall get on better.'  `I'd rather finish my tea,'
+136 chars
+>(1025/1132)said the Hatter, with an anxiouslook at the Queen, who was reading the list of singers.  `You may go,' said the King, and the
+136 chars
+>(1026/1132)Hatter hurriedly left thecourt, without even waiting to put his shoes on.  `--and just take his head off outside,' the Queen
+135 chars
+>(1027/1132)added to oneof the officers:  but the Hatter was out of sight before theofficer could get to the door.  `Call the next witness!'
+139 chars
+>(1028/1132)said the King.  The next witness was the Duchess's cook.  She carried thepepper-box in her hand, and Alice guessed who it was,
+137 chars
+>(1029/1132)even beforeshe got into the court, by the way the people near the door begansneezing all at once.  `Give your evidence,' said the
+140 chars
+>(1030/1132)King.  `Shan't,' said the cook.  The King looked anxiously at the White Rabbit, who said in alow voice, `Your Majesty must
+133 chars
+>(1031/1132)cross-examine THIS witness.'  `Well, if I must, I must,' the King said, with a melancholyair, and, after folding his arms and
+136 chars
+>(1032/1132)frowning at the cook tillhis eyes were nearly out of sight, he said in a deep voice, `Whatare tarts made of?'  `Pepper, mostly,'
+139 chars
+>(1033/1132)said the cook.  `Treacle,' said a sleepy voice behind her.  `Collar that Dormouse,' the Queen shrieked out.  `Behead
+127 chars
+>(1034/1132)thatDormouse!  Turn that Dormouse out of court!  Suppress him!  Pinchhim!  Off with his whiskers!'  For some minutes the whole
+137 chars
+>(1035/1132)court was in confusion, getting theDormouse turned out, and, by the time they had settled downagain, the cook had disappeared. 
+138 chars
+>(1036/1132)`Never mind!' said the King, with an air of great relief.`Call the next witness.'  And he added in an undertone to theQueen,
+135 chars
+>(1037/1132)`Really, my dear, YOU must cross-examine the next witness.It quite makes my forehead ache!'  Alice watched the White Rabbit as he
+140 chars
+>(1038/1132)fumbled over the list,feeling very curious to see what the next witness would be like,`--for they haven't got much evidence YET,'
+140 chars
+>(1039/1132)she said to herself.Imagine her surprise, when the White Rabbit read out, at the topof his shrill little voice, the name `Alice!'
+140 chars
+>(1040/1132)CHAPTER XII                        Alice's Evidence  `Here!' cried Alice, quite forgetting in the flurry of themoment how large
+138 chars
+>(1041/1132)she had grown in the last few minutes, and shejumped up in such a hurry that she tipped over the jury-box withthe edge of her
+136 chars
+>(1042/1132)skirt, upsetting all the jurymen on to the headsof the crowd below, and there they lay sprawling about, remindingher very much of
+140 chars
+>(1043/1132)a globe of goldfish she had accidentally upsetthe week before.  `Oh, I BEG your pardon!' she exclaimed in a tone of greatdismay,
+139 chars
+>(1044/1132)and began picking them up again as quickly as she could,for the accident of the goldfish kept running in her head, andshe had a
+138 chars
+>(1045/1132)vague sort of idea that they must be collected at onceand put back into the jury-box, or they would die.  `The trial cannot
+134 chars
+>(1046/1132)proceed,' said the King in a very gravevoice, `until all the jurymen are back in their proper places--ALL,' he repeated with
+135 chars
+>(1047/1132)great emphasis, looking hard at Alice ashe said do.  Alice looked at the jury-box, and saw that, in her haste, shehad put the
+136 chars
+>(1048/1132)Lizard in head downwards, and the poor little thingwas waving its tail about in a melancholy way, being quite unableto move.  She
+140 chars
+>(1049/1132)soon got it out again, and put it right; `not thatit signifies much,' she said to herself; `I should think itwould be QUITE as
+137 chars
+>(1050/1132)much use in the trial one way up as the other.'  As soon as the jury had a little recovered from the shock ofbeing upset, and
+136 chars
+>(1051/1132)their slates and pencils had been found andhanded back to them, they set to work very diligently to writeout a history of the
+136 chars
+>(1052/1132)accident, all except the Lizard, who seemedtoo much overcome to do anything but sit with its mouth open,gazing up into the roof
+138 chars
+>(1053/1132)of the court.  `What do you know about this business?' the King said toAlice.  `Nothing,' said Alice.  `Nothing WHATEVER?'
+133 chars
+>(1054/1132)persisted the King.  `Nothing whatever,' said Alice.  `That's very important,' the King said, turning to the jury.They were just
+139 chars
+>(1055/1132)beginning to write this down on their slates, whenthe White Rabbit interrupted:  `UNimportant, your Majesty means,of course,' he
+139 chars
+>(1056/1132)said in a very respectful tone, but frowning andmaking faces at him as he spoke.  `UNimportant, of course, I meant,' the King
+136 chars
+>(1057/1132)hastily said, andwent on to himself in an undertone, `important--unimportant--unimportant--important--' as if he were trying
+135 chars
+>(1058/1132)which wordsounded best.  Some of the jury wrote it down `important,' and some`unimportant.'  Alice could see this, as she was
+136 chars
+>(1059/1132)near enough tolook over their slates; `but it doesn't matter a bit,' shethought to herself.  At this moment the King, who had
+136 chars
+>(1060/1132)been for some time busilywriting in his note-book, cackled out `Silence!' and read outfrom his book, `Rule Forty-two.  ALL
+133 chars
+>(1061/1132)PERSONS MORE THAN A MILEHIGH TO LEAVE THE COURT.'  Everybody looked at Alice.  `I'M not a mile high,' said Alice.  `You are,'
+136 chars
+>(1062/1132)said the King.  `Nearly two miles high,' added the Queen.  `Well, I shan't go, at any rate,' said Alice:  `besides,that's not a
+138 chars
+>(1063/1132)regular rule:  you invented it just now.'  `It's the oldest rule in the book,' said the King.  `Then it ought to be Number One,'
+139 chars
+>(1064/1132)said Alice.  The King turned pale, and shut his note-book hastily.`Consider your verdict,' he said to the jury, in a low,
+132 chars
+>(1065/1132)tremblingvoice.  `There's more evidence to come yet, please your Majesty,' saidthe White Rabbit, jumping up in a great hurry;
+136 chars
+>(1066/1132)`this paper hasjust been picked up.'  `What's in it?' said the Queen.  `I haven't opened it yet,' said the White Rabbit, `but it
+139 chars
+>(1067/1132)seemsto be a letter, written by the prisoner to--to somebody.'  `It must have been that,' said the King, `unless it waswritten to
+140 chars
+>(1068/1132)nobody, which isn't usual, you know.'  `Who is it directed to?' said one of the jurymen.  `It isn't directed at all,' said the
+137 chars
+>(1069/1132)White Rabbit; `in fact,there's nothing written on the OUTSIDE.'  He unfolded the paperas he spoke, and added `It isn't a letter,
+139 chars
+>(1070/1132)after all:  it's a setof verses.'  `Are they in the prisoner's handwriting?' asked another ofthe jurymen.  `No, they're not,'
+136 chars
+>(1071/1132)said the White Rabbit, `and that's thequeerest thing about it.'  (The jury all looked puzzled.)  `He must have imitated somebody
+139 chars
+>(1072/1132)else's hand,' said the King.(The jury all brightened up again.)  `Please your Majesty,' said the Knave, `I didn't write it,
+134 chars
+>(1073/1132)andthey can't prove I did:  there's no name signed at the end.'  `If you didn't sign it,' said the King, `that only makes
+132 chars
+>(1074/1132)thematter worse.  You MUST have meant some mischief, or else you'dhave signed your name like an honest man.'  There was a general
+140 chars
+>(1075/1132)clapping of hands at this:  it was thefirst really clever thing the King had said that day.  `That PROVES his guilt,' said the
+137 chars
+>(1076/1132)Queen.  `It proves nothing of the sort!' said Alice.  `Why, you don'teven know what they're about!'  `Read them,' said the King. 
+140 chars
+>(1077/1132)The White Rabbit put on his spectacles.  `Where shall I begin,please your Majesty?' he asked.  `Begin at the beginning,' the King
+140 chars
+>(1078/1132)said gravely, `and go ontill you come to the end:  then stop.'  These were the verses the White Rabbit read:--        `They told
+139 chars
+>(1079/1132)me you had been to her,          And mentioned me to him:        She gave me a good character,          But said I could not
+135 chars
+>(1080/1132)swim.        He sent them word I had not gone          (We know it to be true):        If she should push the matter on,         
+140 chars
+>(1081/1132)What would become of you?        I gave her one, they gave him two,          You gave us three or more;        They all returned
+139 chars
+>(1082/1132)from him to you,          Though they were mine before.        If I or she should chance to be          Involved in this affair, 
+140 chars
+>(1083/1132)He trusts to you to set them free,          Exactly as we were.        My notion was that you had been          (Before she had
+138 chars
+>(1084/1132)this fit)        An obstacle that came between          Him, and ourselves, and it.        Don't let him know she liked them
+135 chars
+>(1085/1132)best,          For this must ever be        A secret, kept from all the rest,          Between yourself and me.'  `That's the
+136 chars
+>(1086/1132)most important piece of evidence we've heard yet,'said the King, rubbing his hands; `so now let the jury--'  `If any one of them
+139 chars
+>(1087/1132)can explain it,' said Alice, (she hadgrown so large in the last few minutes that she wasn't a bitafraid of interrupting him,)
+136 chars
+>(1088/1132)`I'll give him sixpence.  _I_ don'tbelieve there's an atom of meaning in it.'  The jury all wrote down on their slates, `SHE
+135 chars
+>(1089/1132)doesn't believethere's an atom of meaning in it,' but none of them attempted toexplain the paper.  `If there's no meaning in it,'
+140 chars
+>(1090/1132)said the King, `that saves aworld of trouble, you know, as we needn't try to find any.  Andyet I don't know,' he went on,
+132 chars
+>(1091/1132)spreading out the verses on hisknee, and looking at them with one eye; `I seem to see somemeaning in them, after all.  "--SAID I
+139 chars
+>(1092/1132)COULD NOT SWIM--" youcan't swim, can you?' he added, turning to the Knave.  The Knave shook his head sadly.  `Do I look like it?'
+140 chars
+>(1093/1132)he said.(Which he certainly did NOT, being made entirely of cardboard.)  `All right, so far,' said the King, and he went on
+134 chars
+>(1094/1132)mutteringover the verses to himself:  `"WE KNOW IT TO BE TRUE--" that'sthe jury, of course-- "I GAVE HER ONE, THEY GAVE HIM
+134 chars
+>(1095/1132)TWO--" why,that must be what he did with the tarts, you know--'  `But, it goes on "THEY ALL RETURNED FROM HIM TO YOU,"'
+130 chars
+>(1096/1132)saidAlice.  `Why, there they are!' said the King triumphantly, pointing tothe tarts on the table.  `Nothing can be clearer than
+138 chars
+>(1097/1132)THAT.Then again--"BEFORE SHE HAD THIS FIT--"  you never had fits, mydear, I think?' he said to the Queen.  `Never!' said the
+135 chars
+>(1098/1132)Queen furiously, throwing an inkstand at theLizard as she spoke.  (The unfortunate little Bill had left offwriting on his slate
+138 chars
+>(1099/1132)with one finger, as he found it made nomark; but he now hastily began again, using the ink, that wastrickling down his face, as
+138 chars
+>(1100/1132)long as it lasted.)  `Then the words don't FIT you,' said the King, looking roundthe court with a smile.  There was a dead
+133 chars
+>(1101/1132)silence.  `It's a pun!' the King added in an offended tone, andeverybody laughed, `Let the jury consider their verdict,' theKing
+139 chars
+>(1102/1132)said, for about the twentieth time that day.  `No, no!' said the Queen.  `Sentence first--verdict afterwards.'  `Stuff and
+133 chars
+>(1103/1132)nonsense!' said Alice loudly.  `The idea of havingthe sentence first!'  `Hold your tongue!' said the Queen, turning purple.  `I
+138 chars
+>(1104/1132)won't!' said Alice.  `Off with her head!' the Queen shouted at the top of her voice.Nobody moved.  `Who cares for you?' said
+135 chars
+>(1105/1132)Alice, (she had grown to her fullsize by this time.)  `You're nothing but a pack of cards!'  At this the whole pack rose up into
+139 chars
+>(1106/1132)the air, and came flyingdown upon her:  she gave a little scream, half of fright and halfof anger, and tried to beat them off,
+137 chars
+>(1107/1132)and found herself lying onthe bank, with her head in the lap of her sister, who was gentlybrushing away some dead leaves that had
+140 chars
+>(1108/1132)fluttered down from thetrees upon her face.  `Wake up, Alice dear!' said her sister; `Why, what a longsleep you've had!'  `Oh,
+137 chars
+>(1109/1132)I've had such a curious dream!' said Alice, and she toldher sister, as well as she could remember them, all these
+124 chars
+>(1110/1132)strangeAdventures of hers that you have just been reading about; andwhen she had finished, her sister kissed her, and said, `It
+138 chars
+>(1111/1132)WAS acurious dream, dear, certainly:  but now run in to your tea; it'sgetting late.'  So Alice got up and ran off, thinking while
+140 chars
+>(1112/1132)sheran, as well she might, what a wonderful dream it had been.  But her sister sat still just as she left her, leaning herhead on
+140 chars
+>(1113/1132)her hand, watching the setting sun, and thinking oflittle Alice and all her wonderful Adventures, till she too begandreaming
+135 chars
+>(1114/1132)after a fashion, and this was her dream:--  First, she dreamed of little Alice herself, and once again thetiny hands were clasped
+140 chars
+>(1115/1132)upon her knee, and the bright eager eyeswere looking up into hers--she could hear the very tones of hervoice, and see that queer
+139 chars
+>(1116/1132)little toss of her head to keep backthe wandering hair that WOULD always get into her eyes--andstill as she listened, or seemed
+138 chars
+>(1117/1132)to listen, the whole placearound her became alive the strange creatures of her littlesister's dream.  The long grass rustled at
+138 chars
+>(1118/1132)her feet as the White Rabbit hurriedby--the frightened Mouse splashed his way through theneighbouring pool--she could hear the
+137 chars
+>(1119/1132)rattle of the teacups asthe March Hare and his friends shared their never-ending meal,and the shrill voice of the Queen ordering
+139 chars
+>(1120/1132)off her unfortunateguests to execution--once more the pig-baby was sneezing on theDuchess's knee, while plates and dishes crashed
+140 chars
+>(1121/1132)around it--oncemore the shriek of the Gryphon, the squeaking of the Lizard'sslate-pencil, and the choking of the suppressed
+134 chars
+>(1122/1132)guinea-pigs,filled the air, mixed up with the distant sobs of the miserableMock Turtle.  So she sat on, with closed eyes, and
+136 chars
+>(1123/1132)half believed herself inWonderland, though she knew she had but to open them again, andall would change to dull reality--the
+135 chars
+>(1124/1132)grass would be onlyrustling in the wind, and the pool rippling to the waving of thereeds--the rattling teacups would change to
+137 chars
+>(1125/1132)tinkling sheep-bells, and the Queen's shrill cries to the voice of the shepherdboy--and the sneeze of the baby, the shriek of the
+140 chars
+>(1126/1132)Gryphon, andall the other queer noises, would change (she knew) to theconfused clamour of the busy farm-yard--while the lowing of
+140 chars
+>(1127/1132)thecattle in the distance would take the place of the Mock Turtle'sheavy sobs.  Lastly, she pictured to herself how this same
+136 chars
+>(1128/1132)little sister ofhers would, in the after-time, be herself a grown woman; and howshe would keep, through all her riper years, the
+139 chars
+>(1129/1132)simple andloving heart of her childhood:  and how she would gather abouther other little children, and make THEIR eyes bright and
+140 chars
+>(1130/1132)eagerwith many a strange tale, perhaps even with the dream ofWonderland of long ago:  and how she would feel with all theirsimple
+140 chars
+>(1131/1132)sorrows, and find a pleasure in all their simple joys,remembering her own child-life, and the happy summer days.                 
+140 chars
+>(1132/1132)THE END
+18 chars
+=====
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.246 s
+[INFO] Finished at: 2022-06-24T13:18:30-07:00
+[INFO] ------------------------------------------------------------------------
